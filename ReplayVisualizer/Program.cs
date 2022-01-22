@@ -119,6 +119,7 @@ namespace ReplayVisualizer
                     float heading = p.Value<float>("heading");
                     Point2 position = new Point2(p.Value<double>("x"), p.Value<double>("y"));
                     bool omitPos = position.x > 1.1 || position.x < -0.1 || position.y > 1.1 || position.y < -0.1;
+                    //bool omitPos = disappearing;
 
                     if (omitPos)
                     {
@@ -312,6 +313,8 @@ namespace ReplayVisualizer
             //And get all the lines
             string[] fileLines = fileStr.Split(Environment.NewLine.ToCharArray());
 
+            Console.WriteLine($"Length: {fileLines.Length}\n{fileLines[5]}\n\n{fileLines[6]}");
+
             //Now, turn all the fileLine strings into ReplayLine objects and populate the replayLines array
             //The first line is for metadata and the last line is empty, so reduce count by 2
             ReplayLine[] replayLines = new ReplayLine[fileLines.Length - 2];
@@ -326,7 +329,7 @@ namespace ReplayVisualizer
                 ReplayLine rl = new ReplayLine(fileLines[i]);
                 if (rl.IsNull)
                 {
-                    Console.WriteLine("Failure: " + fileLines[i]);
+                    Console.WriteLine("Failure: " + fileLines[i] + $" ({i})");
                 }
                 else
                 {
