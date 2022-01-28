@@ -23,6 +23,8 @@ namespace ReplayVisualizer
             this.value = value;
             this.time = time;
         }
+
+        public override string ToString() => $"time: {Utils.SecondsToGameTime(time)} value: {value}";
     }
     class TimeMarkerComparer : IComparer<ITimeMarker>
     {

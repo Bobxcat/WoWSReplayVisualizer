@@ -1,0 +1,3797 @@
+{
+    "AIParams": {
+        "default_distance": 0,
+        "max_distance": 0,
+        "min_distance": 0
+    },
+    "ATBADefault": {
+        "HP_RGS_1": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_10": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_11": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -38.0,
+                130.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_12": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -130.0,
+                38.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_2": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_3": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_4": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_5": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_6": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_7": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_8": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGS_9": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PRPA005_75MM_HE"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.075,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -50.0,
+                50.0
+            ],
+            "id": 4256622032,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PRGS036",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/secondary/RGS036_75mm_Cane/RGS036_75mm_Cane.model",
+            "name": "PRGS036_75mm_Cane",
+            "numBarrels": 1,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 4.0,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "artificialOffset": 0,
+        "maxDist": 3200.0,
+        "minDistH": 50.0,
+        "minDistV": 110.0,
+        "sigmaCount": 1.0,
+        "taperDist": 0.0,
+        "targetWeightAllyAttacker": 1.0,
+        "targetWeightDist": 1.0,
+        "targetWeightHealth": 1.0,
+        "targetWeightIncoming": 10.0,
+        "targetWeightMaxDist": 2.0,
+        "targetWeightMaxHealth": 1.0,
+        "targetWeightMinDist": 10.0,
+        "targetWeightMinHealth": 5.0,
+        "targetWeightMyAttacker": 1.0,
+        "targetWeightOutcoming": 0.1,
+        "targetWeightType": 1.0,
+        "targetWeightTypeTable": {
+            "AirCarrier": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Auxiliary": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Battleship": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Cruiser": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Destroyer": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Submarine": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "targetWeightYaw": 1.0
+    },
+    "ArtilleryDefault": {
+        "HP_RGM_1": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.75,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PRPA002_Shell_152mm_HE_HE_109lbs",
+                "PRPA001_Shell_152mm_AP_AP_91lbs"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65568": 6.0,
+                "65569": 6.0,
+                "65571": 1.0,
+                "65635": 1.0,
+                "65636": 6.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane_dead.model",
+            "deadZone": [
+                [
+                    157.0,
+                    -157.0
+                ]
+            ],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                0.0,
+                0.0
+            ],
+            "id": 4255770064,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PRGM037",
+            "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane.model",
+            "name": "PRGM037_6in45_Cane",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [
+                [
+                    177.0,
+                    -177.0,
+                    13.0,
+                    20.0
+                ]
+            ],
+            "position": [
+                0.0,
+                1.0
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+            "rotationSpeed": [
+                5.0,
+                3.0
+            ],
+            "shotDelay": 8.57,
+            "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGM_2": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.75,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PRPA002_Shell_152mm_HE_HE_109lbs",
+                "PRPA001_Shell_152mm_AP_AP_91lbs"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65568": 6.0,
+                "65569": 6.0,
+                "65571": 1.0,
+                "65635": 1.0,
+                "65636": 6.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -161.0,
+                1.0
+            ],
+            "id": 4255770064,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PRGM037",
+            "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane.model",
+            "name": "PRGM037_6in45_Cane",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                1.0,
+                1.75
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+            "rotationSpeed": [
+                5.0,
+                3.0
+            ],
+            "shotDelay": 8.57,
+            "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGM_3": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.75,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PRPA002_Shell_152mm_HE_HE_109lbs",
+                "PRPA001_Shell_152mm_AP_AP_91lbs"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65568": 6.0,
+                "65569": 6.0,
+                "65571": 1.0,
+                "65635": 1.0,
+                "65636": 6.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -1.0,
+                161.0
+            ],
+            "id": 4255770064,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PRGM037",
+            "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane.model",
+            "name": "PRGM037_6in45_Cane",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                1.0,
+                0.25
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+            "rotationSpeed": [
+                5.0,
+                3.0
+            ],
+            "shotDelay": 8.57,
+            "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGM_4": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.75,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PRPA002_Shell_152mm_HE_HE_109lbs",
+                "PRPA001_Shell_152mm_AP_AP_91lbs"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65568": 6.0,
+                "65569": 6.0,
+                "65571": 1.0,
+                "65635": 1.0,
+                "65636": 6.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -113.0,
+                30.0
+            ],
+            "id": 4255770064,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PRGM037",
+            "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane.model",
+            "name": "PRGM037_6in45_Cane",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                2.0,
+                2.0
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+            "rotationSpeed": [
+                5.0,
+                3.0
+            ],
+            "shotDelay": 8.57,
+            "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGM_5": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.75,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PRPA002_Shell_152mm_HE_HE_109lbs",
+                "PRPA001_Shell_152mm_AP_AP_91lbs"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65568": 6.0,
+                "65569": 6.0,
+                "65571": 1.0,
+                "65635": 1.0,
+                "65636": 6.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -30.0,
+                113.0
+            ],
+            "id": 4255770064,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PRGM037",
+            "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane.model",
+            "name": "PRGM037_6in45_Cane",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                2.0,
+                0.0
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+            "rotationSpeed": [
+                5.0,
+                3.0
+            ],
+            "shotDelay": 8.57,
+            "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGM_6": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.75,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PRPA002_Shell_152mm_HE_HE_109lbs",
+                "PRPA001_Shell_152mm_AP_AP_91lbs"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65568": 6.0,
+                "65569": 6.0,
+                "65571": 1.0,
+                "65635": 1.0,
+                "65636": 6.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                0.0,
+                145.0
+            ],
+            "id": 4255770064,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PRGM037",
+            "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane.model",
+            "name": "PRGM037_6in45_Cane",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                4.5,
+                1.75
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+            "rotationSpeed": [
+                5.0,
+                3.0
+            ],
+            "shotDelay": 8.57,
+            "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGM_7": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.75,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PRPA002_Shell_152mm_HE_HE_109lbs",
+                "PRPA001_Shell_152mm_AP_AP_91lbs"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65568": 6.0,
+                "65569": 6.0,
+                "65571": 1.0,
+                "65635": 1.0,
+                "65636": 6.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -145.0,
+                0.0
+            ],
+            "id": 4255770064,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PRGM037",
+            "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane.model",
+            "name": "PRGM037_6in45_Cane",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                4.5,
+                0.25
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+            "rotationSpeed": [
+                5.0,
+                3.0
+            ],
+            "shotDelay": 8.57,
+            "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "HP_RGM_8": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.75,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PRPA002_Shell_152mm_HE_HE_109lbs",
+                "PRPA001_Shell_152mm_AP_AP_91lbs"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65568": 6.0,
+                "65569": 6.0,
+                "65571": 1.0,
+                "65635": 1.0,
+                "65636": 6.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -122.0,
+                122.0
+            ],
+            "id": 4255770064,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PRGM037",
+            "lensEffect": "particles/guns/GK_Lens_50to170.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/gun/main/RGM040_6in45_Cane/RGM040_6in45_Cane.model",
+            "name": "PRGM037_6in45_Cane",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                5.5,
+                1.0
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_110to170.xml",
+            "rotationSpeed": [
+                5.0,
+                3.0
+            ],
+            "shotDelay": 8.57,
+            "shotEffect": "particles/guns/GK_Shot_110to170.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Russia",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                20.0
+            ]
+        },
+        "ammoPool": {
+            "AP": 99999,
+            "CS": 99999,
+            "HE": 99999,
+            "axisLaser": 99999,
+            "chargeLaser": 99999,
+            "impulseLaser": 99999
+        },
+        "artificialOffset": 0,
+        "maxDist": 11800.0,
+        "minDistH": 50.0,
+        "minDistV": 110.0,
+        "normalDistribution": true,
+        "sigmaCount": 2.0,
+        "taperDist": 4000.0,
+        "targetTypeIgnore": [],
+        "targetWeightAllyAttacker": 1.0,
+        "targetWeightDist": 1.0,
+        "targetWeightHealth": 1.0,
+        "targetWeightIncoming": 10.0,
+        "targetWeightMaxDist": 2.0,
+        "targetWeightMaxHealth": 1.0,
+        "targetWeightMinDist": 10.0,
+        "targetWeightMinHealth": 5.0,
+        "targetWeightMyAttacker": 1.0,
+        "targetWeightOutcoming": 0.1,
+        "targetWeightType": 1.0,
+        "targetWeightTypeTable": {
+            "AirCarrier": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "Auxiliary": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "Battleship": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "Cruiser": [
+                4.0,
+                4.0,
+                4.0
+            ],
+            "Destroyer": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "Submarine": [
+                5.0,
+                5.0,
+                5.0
+            ]
+        },
+        "targetWeightYaw": 1.0
+    },
+    "BattleUpgradeInfo": {},
+    "EngineDefault": {
+        "HitLocationEngine": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.6,
+            "autoRepairTime": 60,
+            "autoRepairTimeMin": 60,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.25,
+                0.1
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "engine_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 22100.0,
+            "moduleCritCoeffCR": 1.0,
+            "moduleCritCoeffXP": 1.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_engine1_1",
+                "CM_SB_engine1_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 10.0,
+            "volumeCoeff": 1.0
+        },
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 2.5,
+        "backwardEngineUpTime": 20.0,
+        "backwardSpeedOnFlood": -0.6,
+        "damagedEnginePowerMultiplier": -0.6,
+        "damagedEnginePowerTimeMultiplier": 5.5,
+        "engineType": "SteamTurbine",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 2.5,
+        "forwardEngineUpTime": 20.0,
+        "forwardSpeedOnFlood": -0.3,
+        "histEnginePower": 11610,
+        "sound": "GameLogic.Engines.St_Louis",
+        "speedCoef": 0.0
+    },
+    "FindersDefault": {
+        "HP_RF_1": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4277332432,
+            "index": "PRF016",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/russia/finder/RF016_Rangefinder_2_7m_black/RF016_Rangefinder_2_7m_black.model",
+            "name": "PRF016_Rangefinder_2_7m_black",
+            "typeinfo": {
+                "nation": "Russia",
+                "species": null,
+                "type": "Finder"
+            }
+        }
+    },
+    "FireControlDefault": {
+        "maxDistCoef": 1.0,
+        "sigmaCountCoef": 1.0
+    },
+    "HullDefault": {
+        "Ammo_1": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.4,
+            "autoRepairTime": 40,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": true,
+            "coeffReloadDamaged": 1.0,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "guns": [],
+            "hitDetonationMaxProbAtDamage": [
+                0.1,
+                1.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.01,
+                0.3
+            ],
+            "hlType": "powdermagazine_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 11100.0,
+            "moduleCritCoeffCR": 1.0,
+            "moduleCritCoeffXP": 1.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_bow_ammo1_1",
+                "CM_SB_bow_ammo1_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 1.0
+        },
+        "Ammo_2": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.4,
+            "autoRepairTime": 40,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": true,
+            "coeffReloadDamaged": 1.0,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "guns": [],
+            "hitDetonationMaxProbAtDamage": [
+                0.1,
+                1.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.01,
+                0.3
+            ],
+            "hlType": "powdermagazine_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 11100.0,
+            "moduleCritCoeffCR": 1.0,
+            "moduleCritCoeffXP": 1.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_stern_ammo1_1",
+                "CM_SB_stern_ammo1_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 1.0
+        },
+        "Bow": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "simple_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1500.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_bow_1",
+                "CM_SB_bow_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 0.79,
+            "volumeCoeff": 0.165
+        },
+        "Cit": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "citadel_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 165500,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.1,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_cit_1"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.59,
+            "volumeCoeff": 1.0
+        },
+        "Hull": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "hull_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 16600.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 0.165
+        },
+        "SG": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.4,
+            "autoRepairTime": 40,
+            "autoRepairTimeMin": 40,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.65,
+                0.25
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "steering_gear_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 6600.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_ruder1_1",
+                "CM_SB_ruder1_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 1.0
+        },
+        "SS": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "supersctructure_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 600.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_ss_1_1",
+                "CM_SB_ss_2_1",
+                "CM_SB_ss_3_2",
+                "CM_SB_ss_3_1"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 0.3,
+            "volumeCoeff": 0.165
+        },
+        "SSC": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "simple_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 3200.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_ssc_1"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.67,
+            "volumeCoeff": 0.165
+        },
+        "St": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "simple_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1400.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_stern_1",
+                "CM_SB_stern_2",
+                "CM_SB_stern_3"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 0.73,
+            "volumeCoeff": 0.165
+        },
+        "acidDamage": 0,
+        "acidDuration": 0,
+        "armor": {
+            "1": 0.0,
+            "131123": 6.0,
+            "131155": 9.0,
+            "131159": 0.0,
+            "131162": 0.0,
+            "196701": 9.0,
+            "65583": 10.0,
+            "65584": 6.0,
+            "65585": 6.0,
+            "65587": 0.0,
+            "65595": 25.0,
+            "65598": 10.0,
+            "65600": 51.0,
+            "65601": 25.0,
+            "65602": 70.0,
+            "65603": 6.0,
+            "65617": 9.0,
+            "65618": 70.0,
+            "65619": 51.0,
+            "65620": 6.0,
+            "65622": 9.0,
+            "65623": 6.0,
+            "65624": 6.0,
+            "65625": 6.0,
+            "65626": 6.0,
+            "65628": 10.0,
+            "65629": 6.0,
+            "65630": 6.0,
+            "65632": 0.0,
+            "65638": 6.0,
+            "65639": 51.0,
+            "65642": 70.0,
+            "65643": 51.0,
+            "65644": 152.0,
+            "65645": 25.0
+        },
+        "armourCas": [
+            -1,
+            -1
+        ],
+        "armourCit": [
+            -1,
+            -1
+        ],
+        "armourDeck": [
+            -1,
+            -1
+        ],
+        "armourExtremities": [
+            -1,
+            -1
+        ],
+        "backwardPowerCoef": 3.0,
+        "barbettes": {},
+        "baseUnderwaterPitchAngle": 0.0,
+        "bodyType": "dynamic",
+        "boilerExplosionPostDeath": "particles/Empty_FX.xml",
+        "buoyancy": 200000,
+        "buoyancyEffects": [],
+        "buoyancyHighlightEffect": "particles/submarines/Sub_location.xml",
+        "buoyancyRudderDepths": [
+            0,
+            -8,
+            -16,
+            -24,
+            -32,
+            -40,
+            -48,
+            -56,
+            -64,
+            -72,
+            -80
+        ],
+        "buoyancyRudderResetTime": 1.0,
+        "buoyancyRudderTime": 1.0,
+        "buoyancyStates": {
+            "DEEP_WATER": [
+                [
+                    -34.0,
+                    -59.0
+                ],
+                0.63,
+                10.0
+            ],
+            "DEEP_WATER_INVUL": [
+                [
+                    -59.0,
+                    -80.0
+                ],
+                0.63,
+                10.0
+            ],
+            "PERISCOPE": [
+                [
+                    -4.0,
+                    -13.0
+                ],
+                0.63,
+                10.0
+            ],
+            "SEMI_DEEP_WATER": [
+                [
+                    -13.0,
+                    -34.0
+                ],
+                0.63,
+                10.0
+            ],
+            "SURFACE": [
+                [
+                    0.0,
+                    -4.0
+                ],
+                1.0,
+                1.0
+            ]
+        },
+        "buoyancyStopLine": 10.0,
+        "buoyancyStopLineMinSpeedCoeff": 0.35,
+        "burnNodes": [
+            [
+                1.0,
+                0.3,
+                30.0
+            ],
+            [
+                1.0,
+                0.3,
+                30.0
+            ],
+            [
+                1.0,
+                0.3,
+                30.0
+            ],
+            [
+                1.0,
+                0.3,
+                30.0
+            ]
+        ],
+        "canReceiveAcid": false,
+        "consumablePlaneTypes": {
+            "fighter": "",
+            "scout": ""
+        },
+        "coolingOffSpeed": 0.1,
+        "crackCoords": [
+            0.25,
+            0.0,
+            -0.25
+        ],
+        "customMiscs": {},
+        "deathBubblesEffect": "particles/NF_CC_seething_bubbles_post_death.xml",
+        "deathDetonateEffect": "particles/Empty_FX.xml",
+        "deathFaultEffect": "particles/Empty_FX.xml",
+        "deathFireEffect": "particles/Empty_FX.xml",
+        "deathFoamEffect": "particles/vehicles/Death_foam_medium.xml",
+        "deathFountainsEffect": "particles/NF_CC_water_fountains_post_death.xml",
+        "deathFumingEffect": "particles/NF_CC_fuming_at_flooding_post_death.xml",
+        "deathNodes": [
+            "HP_Ship_death_1",
+            "HP_Ship_death_2",
+            "HP_Ship_death_3"
+        ],
+        "deathPlaneEffect": "particles/NF_AA_death_catapult_ships.xml",
+        "deathPostFireEffect": "particles/NF_CC_fuming_post_fire.xml",
+        "deathSettings": "PCOS001_Default",
+        "deathShellEffect": "particles/Empty_FX.xml",
+        "deathTorpedoEffect": "particles/NF_death_torpedo.xml",
+        "deathUnderWaterBubblesEffects": [
+            "particles/submarines/Sub_bomb_trace.xml",
+            "particles/submarines/Sub_bomb_trace.xml"
+        ],
+        "deckHeight": 7.7,
+        "deepwaterVisionCoeff": {},
+        "deepwaterVisionToPlaneCoeff": {},
+        "defaultCamouflage": "",
+        "dockYOffset": 0.0,
+        "draft": 6.4,
+        "effectCauldronExplosion": "particles/Empty_FX.xml",
+        "effectOnDeath": "particles/vehicles/Cruiser_death.xml",
+        "effectOnDetonatePowderChamber": "particles/simple_death.xml",
+        "effectOnFloodDeath": "particles/vehicles/Cruiser_death.xml",
+        "effectShipCracksAndOilPuddle": "particles/Empty_FX.xml",
+        "effects": {
+            "death": [
+                [
+                    "HP_FX_Death_1",
+                    "particles/vehicles/Death_foam_medium.xml"
+                ],
+                [
+                    "HP_FX_Death_2",
+                    "particles/vehicles/Death_foam_medium.xml"
+                ],
+                [
+                    "HP_FX_Death_3",
+                    "particles/vehicles/Death_foam_medium.xml"
+                ]
+            ],
+            "fire1": [
+                [
+                    "HP_FX_Fire_1",
+                    "particles/vehicles/Fire_vsmall.xml"
+                ]
+            ],
+            "fire2": [
+                [
+                    "HP_FX_Fire_2",
+                    "particles/vehicles/Fire_medium.xml"
+                ],
+                [
+                    "HP_FX_Fire_2_side_1",
+                    "particles/vehicles/Fire_side_small.xml"
+                ]
+            ],
+            "fire3": [
+                [
+                    "HP_FX_Fire_3",
+                    "particles/vehicles/Fire_medium.xml"
+                ],
+                [
+                    "HP_FX_Fire_3_side_1",
+                    "particles/vehicles/Fire_side_small.xml"
+                ],
+                [
+                    "HP_FX_Fire_3_side_2",
+                    "particles/vehicles/Fire_side_small.xml"
+                ]
+            ],
+            "fire4": [
+                [
+                    "HP_FX_Fire_4",
+                    "particles/vehicles/Fire_small.xml"
+                ]
+            ],
+            "fireResistance": [],
+            "fixDeluge": [
+                [
+                    "HP_FX_Flood_water_left",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_left_2",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_2",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ]
+            ],
+            "fixLight": [
+                [
+                    "HP_FX_FloodLight_left_1",
+                    "particles/vehicles/FixLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_left_2",
+                    "particles/vehicles/FixLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_right_1",
+                    "particles/vehicles/FixLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_right_2",
+                    "particles/vehicles/FixLight_medium.xml"
+                ]
+            ],
+            "flood": [
+                [
+                    "HP_FX_Flood_steam_1",
+                    "particles/vehicles/Flood_steam_medium.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_2",
+                    "particles/vehicles/Flood_steam_medium.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_3",
+                    "particles/vehicles/Flood_steam_medium.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_exhaust_1",
+                    "particles/vehicles/Flood_steam_exhaust_big_delayed.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_exhaust_2",
+                    "particles/vehicles/Flood_steam_exhaust_big.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_left",
+                    "particles/vehicles/Flood_steam_side_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_right",
+                    "particles/vehicles/Flood_steam_side_small.xml"
+                ]
+            ],
+            "floodLight": [
+                [
+                    "HP_FX_FloodLight_left_1",
+                    "particles/vehicles/FloodLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_left_2",
+                    "particles/vehicles/FloodLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_right_1",
+                    "particles/vehicles/FloodLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_right_2",
+                    "particles/vehicles/FloodLight_medium.xml"
+                ]
+            ],
+            "horn": [
+                [
+                    "HP_FX_Smoke_1",
+                    "particles/vehicles/Horn.xml"
+                ],
+                [
+                    "HP_FX_Smoke_2",
+                    "particles/vehicles/Horn.xml"
+                ],
+                [
+                    "HP_FX_Smoke_3",
+                    "particles/vehicles/Horn.xml"
+                ]
+            ],
+            "idle": [],
+            "idlePort": [
+                [
+                    "HP_FX_Flood_water_left",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_left_2",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_2",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Smoke_1",
+                    "particles/vehicles/idlePort_RunSmoke_small.xml"
+                ],
+                [
+                    "HP_FX_Smoke_2",
+                    "particles/vehicles/idlePort_RunSmoke_small.xml"
+                ],
+                [
+                    "HP_FX_Smoke_3",
+                    "particles/vehicles/idlePort_RunSmoke_small.xml"
+                ]
+            ],
+            "repairLight": [],
+            "smoke": [
+                [
+                    "HP_FX_Smoke_1",
+                    "particles/vehicles/RunSmoke_small.xml"
+                ],
+                [
+                    "HP_FX_Smoke_2",
+                    "particles/vehicles/RunSmoke_small.xml"
+                ],
+                [
+                    "HP_FX_Smoke_3",
+                    "particles/vehicles/RunSmoke_small.xml"
+                ]
+            ],
+            "waketraceback": [
+                [
+                    "HP_FX_WakeTraceBack",
+                    "particles/vehicles/WakeTraceReverce_back.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_1",
+                    "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_2",
+                    "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_3",
+                    "particles/vehicles/WakeTraceReverce_screw_medium.xml"
+                ]
+            ],
+            "waketracefront": [
+                [
+                    "HP_FX_WakeTrace",
+                    "particles/vehicles/WakeTraceForward_front.xml"
+                ],
+                [
+                    "HP_FX_WakeTraceBack",
+                    "particles/vehicles/WakeTraceForward_back.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_1",
+                    "particles/vehicles/WakeTrace_screw_medium.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_1",
+                    "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_2",
+                    "particles/vehicles/WakeTrace_screw_medium.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_2",
+                    "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_3",
+                    "particles/vehicles/WakeTrace_screw_medium.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_3",
+                    "particles/vehicles/WakeTraceForward_screw_mid.xml"
+                ]
+            ]
+        },
+        "enemyEngineEffects": false,
+        "enemyVisibilityCoeffByDepth": {
+            "-44.0": 1.0,
+            "0.0": 1.0
+        },
+        "enginePower": 11610.0,
+        "finderBase": 2.7,
+        "finderHeight": 17.5,
+        "flagPoleModelName": "content/gameplay/common/misc/CM500/CM500.model",
+        "floodNodes": [
+            [
+                0.333,
+                0.25,
+                40.0
+            ],
+            [
+                0.333,
+                0.25,
+                40.0
+            ]
+        ],
+        "foghornEffect": "particles/Hooter.xml",
+        "health": 22100.0,
+        "heatChangeValue": 1,
+        "heightIntensityEffects": [],
+        "isBlind": false,
+        "isFakeSubmarine": false,
+        "mass": 6657000.0,
+        "maxBuoyancyLevel": 0.0,
+        "maxBuoyancySpeed": 0.0,
+        "maxHeatValue": 100.0,
+        "maxRudderAngle": 30.0,
+        "maxSpeed": 19.0,
+        "model": "content/gameplay/russia/ship/cruiser/RSC002_Diana_1905/RSC002_Diana_1905.model",
+        "numOfParts": 0,
+        "propellerEffect": "",
+        "propellerEffectReversed": "",
+        "pushingMaxRudderAngle": 16.0,
+        "pushingMinRudderAngle": 1.0,
+        "regenerationHPSpeed": 0.0,
+        "repairingCoeff": 0.0,
+        "rollEffect": 10.0,
+        "rudderPower": 22000000.0,
+        "rudderTime": 8.38,
+        "shipBodySunkDifferenceCoeff": 2.0,
+        "shipBodySunkStartMassCoeff": 1.0,
+        "shipPartSunkDifferenceCoeff": 2.2,
+        "shipPartSunkStartMassCoeff": 2.2,
+        "shipWheelsPresent": false,
+        "sideDragCoef": 440000.0,
+        "sinkStartTime": [
+            [
+                4.0,
+                10.0
+            ],
+            [
+                2.0,
+                4.0
+            ],
+            [
+                3.0,
+                3.0
+            ],
+            [
+                4.0,
+                1.0
+            ]
+        ],
+        "sinkTime": [
+            [
+                45.0,
+                130.0
+            ],
+            [
+                18.0,
+                30.0
+            ],
+            [
+                21.0,
+                27.0
+            ],
+            [
+                27.0,
+                15.0
+            ]
+        ],
+        "sinkingEffects": "PCXS008_Cruiser",
+        "size": [
+            123.87,
+            16.98,
+            24.69
+        ],
+        "smokeScanRadius": 27.0,
+        "speedCoef": 1.0,
+        "timeBeforeCauldronExplosion": 4.0,
+        "timeBeforeDeathEffect": 0.2,
+        "tonnage": 6657.0,
+        "torpedoImpactMassImpulseCoeff": 0.5,
+        "turningRadius": 430.0,
+        "underwaterMaxRudderAngle": 0.0,
+        "underwaterRollEffect": 0.0,
+        "unpeculiarCamouflage": "",
+        "unpeculiarCamouflageColorSchemeId": 0,
+        "visibilityCoefATBA": 1e-06,
+        "visibilityCoefATBAByPlane": 1e-06,
+        "visibilityCoefFire": 2.0,
+        "visibilityCoefFireByPlane": 3.0,
+        "visibilityCoefGK": 1e-06,
+        "visibilityCoefGKByPlane": 3.04,
+        "visibilityCoefGKInSmoke": 4.93,
+        "visibilityCoefPinger": {
+            "0.0": 0.0
+        },
+        "visibilityCoefPingerByPlane": {
+            "0.0": 0.0
+        },
+        "visibilityCoefPingerInSmoke": 1e-06,
+        "visibilityCoeff": 17.37,
+        "visibilityCoeffUnderwaterDepths": {
+            "0.0": 1.0
+        },
+        "visibilityCoeffUnderwaterDepthsByPlane": {
+            "0.0": 1.0
+        },
+        "visibilityFactor": 10.8,
+        "visibilityFactorByPlane": 4.37,
+        "visibilityFactorInSmoke": 1e-06,
+        "visibilityFactorsBySubmarine": {
+            "DEEP_WATER": 2.0,
+            "DEEP_WATER_INVUL": 0.0,
+            "PERISCOPE": 4.37,
+            "SEMI_DEEP_WATER": 2.0,
+            "SURFACE": 0.0
+        }
+    },
+    "ShipAbilities": {
+        "AbilitySlot0": {
+            "abils": [
+                [
+                    "PCY009_CrashCrewPremium",
+                    "CV_CA_CL_Gold"
+                ]
+            ],
+            "slot": 0
+        },
+        "AbilitySlot1": {
+            "abils": [],
+            "slot": 1
+        },
+        "AbilitySlot2": {
+            "abils": [],
+            "slot": 2
+        },
+        "AbilitySlot3": {
+            "abils": [],
+            "slot": 3
+        },
+        "AbilitySlot4": {
+            "abils": [],
+            "slot": 4
+        }
+    },
+    "ShipUpgradeInfo": {
+        "PRUA101_152_45_PATTERN_1892_DIANA": {
+            "canBuy": true,
+            "components": {
+                "artillery": [
+                    "ArtilleryDefault"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Artillery"
+        },
+        "PRUE101_ENGINE_11600_DIANA": {
+            "canBuy": true,
+            "components": {
+                "engine": [
+                    "EngineDefault"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Engine"
+        },
+        "PRUH101_DIANA_1905": {
+            "canBuy": true,
+            "components": {
+                "airArmament": [],
+                "airDefense": [],
+                "artillery": [
+                    "ArtilleryDefault"
+                ],
+                "atba": [
+                    "ATBADefault"
+                ],
+                "depthCharges": [],
+                "directors": [],
+                "finders": [
+                    "FindersDefault"
+                ],
+                "hull": [
+                    "HullDefault"
+                ],
+                "pinger": [],
+                "radars": [],
+                "torpedoes": []
+            },
+            "disabledAbilities": [],
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Hull"
+        },
+        "PRUS101_SUO_DIANA": {
+            "canBuy": true,
+            "components": {
+                "fireControl": [
+                    "FireControlDefault"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Suo"
+        },
+        "costCR": 0,
+        "costGold": 1650,
+        "costSaleGold": 0,
+        "costXP": 0,
+        "lockedConfig": [],
+        "value": 1
+    },
+    "Specials": {
+        "buffsShiftMaxLevel": 0,
+        "buffsShiftSpeed": 1.0,
+        "buffsStartPool": 0,
+        "modifiers": {}
+    },
+    "UnderwaterCamera": {
+        "cameraDragOff": 1000,
+        "cameraDragOffTime": 5,
+        "cameraDragOnTime": 5,
+        "castZoom": {},
+        "maxZoomLength": 5.0,
+        "shipHeigthCoeff": 3.0,
+        "shipLengthCoeff": 1.0,
+        "shipWidthCoeff": 3.0,
+        "zoomDragCoefficient": 0.85
+    },
+    "alternateFlags": [],
+    "apDamageLimitCoeff": 0,
+    "battleSignalsModifiersOrder": [],
+    "battleSignalsOrder": [],
+    "canEquipCamouflage": true,
+    "custom": {},
+    "defaultCrew": null,
+    "effects": {},
+    "flagsScale": 0.7,
+    "group": "special",
+    "id": 4292785616,
+    "index": "PRSC002",
+    "isPaperShip": false,
+    "level": 2,
+    "maxEquippedFlags": 8,
+    "name": "PRSC002_Diana_1905",
+    "nationFlagScale": 1.7,
+    "nativePermoflage": "PCEP103_Permo_Prem_Low_lvl",
+    "navalFlag": "russia",
+    "needShowProjectYear": true,
+    "peculiarity": "default",
+    "peculiarityEffects": {},
+    "peculiarityFlag": "",
+    "peculiarityModels": {},
+    "permoflages": [
+        "PCEP103_Permo_Prem_Low_lvl",
+        "PREP303_Diana_Russia"
+    ],
+    "steerAngle": [
+        0.2,
+        0.7,
+        1.0
+    ],
+    "steerDist": null,
+    "subnation": "",
+    "tags": [],
+    "typeinfo": {
+        "nation": "Russia",
+        "species": "Cruiser",
+        "type": "Ship"
+    },
+    "unpeculiarShip": ""
+}

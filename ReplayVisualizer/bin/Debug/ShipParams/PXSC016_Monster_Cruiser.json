@@ -1,0 +1,2428 @@
+{
+    "AIParams": {
+        "default_distance": 0,
+        "max_distance": 0,
+        "min_distance": 0
+    },
+    "A_Artillery": {
+        "HP_XGS_1": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.0,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": false,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1000000.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PXPA111_HE_MONSTER_CRUISER"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 25.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+            "deadMesh": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                0.0,
+                60.0
+            ],
+            "id": 4153009424,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PXGM135",
+            "lensEffect": "particles/Empty_FX.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary.model",
+            "name": "PXGM135_Monster_Gun",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                2.0,
+                2.0
+            ],
+            "purgingEffect": "particles/guns/Acid_purging_H2020.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                360.0,
+                5.0
+            ],
+            "shotDelay": 6.5,
+            "shotEffect": "particles/guns/Acid_InitShot_H2020.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Events",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                43.0
+            ]
+        },
+        "HP_XGS_2": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.0,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": false,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1000000.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PXPA111_HE_MONSTER_CRUISER"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 25.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+            "deadMesh": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -60.0,
+                0.0
+            ],
+            "id": 4153009424,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PXGM135",
+            "lensEffect": "particles/Empty_FX.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary.model",
+            "name": "PXGM135_Monster_Gun",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                2.0,
+                0.0
+            ],
+            "purgingEffect": "particles/guns/Acid_purging_H2020.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                360.0,
+                5.0
+            ],
+            "shotDelay": 6.5,
+            "shotEffect": "particles/guns/Acid_InitShot_H2020.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Events",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                43.0
+            ]
+        },
+        "HP_XGS_3": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.0,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": false,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1000000.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PXPA111_HE_MONSTER_CRUISER"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 25.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+            "deadMesh": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -15.0,
+                60.0
+            ],
+            "id": 4153009424,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PXGM135",
+            "lensEffect": "particles/Empty_FX.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary.model",
+            "name": "PXGM135_Monster_Gun",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                3.0,
+                2.0
+            ],
+            "purgingEffect": "particles/guns/Acid_purging_H2020.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                360.0,
+                5.0
+            ],
+            "shotDelay": 6.5,
+            "shotEffect": "particles/guns/Acid_InitShot_H2020.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Events",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                43.0
+            ]
+        },
+        "HP_XGS_4": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.0,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": false,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1000000.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PXPA111_HE_MONSTER_CRUISER"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 25.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+            "deadMesh": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -60.0,
+                15.0
+            ],
+            "id": 4153009424,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PXGM135",
+            "lensEffect": "particles/Empty_FX.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary.model",
+            "name": "PXGM135_Monster_Gun",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                3.0,
+                0.0
+            ],
+            "purgingEffect": "particles/guns/Acid_purging_H2020.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                360.0,
+                5.0
+            ],
+            "shotDelay": 6.5,
+            "shotEffect": "particles/guns/Acid_InitShot_H2020.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Events",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                43.0
+            ]
+        },
+        "HP_XGS_5": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.0,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": false,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1000000.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PXPA111_HE_MONSTER_CRUISER"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 25.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+            "deadMesh": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -45.0,
+                60.0
+            ],
+            "id": 4153009424,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PXGM135",
+            "lensEffect": "particles/Empty_FX.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary.model",
+            "name": "PXGM135_Monster_Gun",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                4.0,
+                2.0
+            ],
+            "purgingEffect": "particles/guns/Acid_purging_H2020.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                360.0,
+                5.0
+            ],
+            "shotDelay": 6.5,
+            "shotEffect": "particles/guns/Acid_InitShot_H2020.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Events",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                43.0
+            ]
+        },
+        "HP_XGS_6": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.0,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": false,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1000000.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PXPA111_HE_MONSTER_CRUISER"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 25.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+            "deadMesh": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -60.0,
+                45.0
+            ],
+            "id": 4153009424,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PXGM135",
+            "lensEffect": "particles/Empty_FX.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary.model",
+            "name": "PXGM135_Monster_Gun",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                4.0,
+                0.0
+            ],
+            "purgingEffect": "particles/guns/Acid_purging_H2020.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                360.0,
+                5.0
+            ],
+            "shotDelay": 6.5,
+            "shotEffect": "particles/guns/Acid_InitShot_H2020.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Events",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                43.0
+            ]
+        },
+        "HP_XGS_7": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.0,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": false,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1000000.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PXPA111_HE_MONSTER_CRUISER"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 25.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+            "deadMesh": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -60.0,
+                75.0
+            ],
+            "id": 4153009424,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PXGM135",
+            "lensEffect": "particles/Empty_FX.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary.model",
+            "name": "PXGM135_Monster_Gun",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                5.0,
+                0.0
+            ],
+            "purgingEffect": "particles/guns/Acid_purging_H2020.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                360.0,
+                5.0
+            ],
+            "shotDelay": 6.5,
+            "shotEffect": "particles/guns/Acid_InitShot_H2020.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Events",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                43.0
+            ]
+        },
+        "HP_XGS_8": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.0,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": false,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1000000.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PXPA111_HE_MONSTER_CRUISER"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "65580": 25.0
+            },
+            "barrelDiameter": 0.152,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_medium.xml",
+            "deadMesh": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -75.0,
+                60.0
+            ],
+            "id": 4153009424,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PXGM135",
+            "lensEffect": "particles/Empty_FX.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 0.5,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/events/gun/secondary/XGS139_Mid_Monster_Secondary/XGS139_Mid_Monster_Secondary.model",
+            "name": "PXGM135_Monster_Gun",
+            "numBarrels": 1,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                5.0,
+                2.0
+            ],
+            "purgingEffect": "particles/guns/Acid_purging_H2020.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                360.0,
+                5.0
+            ],
+            "shotDelay": 6.5,
+            "shotEffect": "particles/guns/Acid_InitShot_H2020.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Events",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -2.0,
+                43.0
+            ]
+        },
+        "ammoPool": {
+            "AP": 99999,
+            "CS": 99999,
+            "HE": 99999,
+            "axisLaser": 99999,
+            "chargeLaser": 99999,
+            "impulseLaser": 99999
+        },
+        "artificialOffset": 0,
+        "maxDist": 10000.0,
+        "minDistH": 50.0,
+        "minDistV": 110.0,
+        "normalDistribution": true,
+        "sigmaCount": 0.27,
+        "taperDist": 4000.0,
+        "targetTypeIgnore": [],
+        "targetWeightAllyAttacker": 1.0,
+        "targetWeightDist": 1.0,
+        "targetWeightHealth": 1.0,
+        "targetWeightIncoming": 10.0,
+        "targetWeightMaxDist": 2.0,
+        "targetWeightMaxHealth": 1.0,
+        "targetWeightMinDist": 10.0,
+        "targetWeightMinHealth": 5.0,
+        "targetWeightMyAttacker": 1.0,
+        "targetWeightOutcoming": 0.1,
+        "targetWeightType": 1.0,
+        "targetWeightTypeTable": {
+            "AirCarrier": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "Auxiliary": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "Battleship": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "Cruiser": [
+                4.0,
+                4.0,
+                4.0
+            ],
+            "Destroyer": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "Submarine": [
+                5.0,
+                5.0,
+                5.0
+            ]
+        },
+        "targetWeightYaw": 1.0
+    },
+    "A_Engine": {
+        "HitLocationEngine": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 60,
+            "autoRepairTimeMin": 60,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "engine_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1000000.0,
+            "moduleCritCoeffCR": 1.0,
+            "moduleCritCoeffXP": 1.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 10.0,
+            "volumeCoeff": 1.0
+        },
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 6.0,
+        "backwardEngineUpTime": 12.0,
+        "backwardSpeedOnFlood": -0.6,
+        "damagedEnginePowerMultiplier": -0.6,
+        "damagedEnginePowerTimeMultiplier": 5.5,
+        "engineType": "SteamTurbine",
+        "forwardEngineForsag": 3.0,
+        "forwardEngineForsagMaxSpeed": 31.155,
+        "forwardEngineUpTime": 20.0,
+        "forwardSpeedOnFlood": -0.47,
+        "histEnginePower": 11000000.0,
+        "sound": "GameLogic.Engines.Battleship.Turbine.Type_1",
+        "speedCoef": 0.0
+    },
+    "A_FireControl": {
+        "maxDistCoef": 1.0,
+        "sigmaCountCoef": 1.0
+    },
+    "A_Hull": {
+        "Bow": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "simple_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1000000.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 1.0,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_bow_1",
+                "CM_SB_bow_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 0.6,
+            "volumeCoeff": 0.165
+        },
+        "Cit": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "citadel_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1000000.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.33,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_cit_1",
+                "CM_SB_cit_2",
+                "CM_SB_cit_3"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 2.74,
+            "volumeCoeff": 1.0
+        },
+        "HP_XGT_1": {
+            "capActive": true,
+            "model": ""
+        },
+        "HP_XGT_2": {
+            "capActive": true,
+            "model": ""
+        },
+        "Hull": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "hull_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1000000.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 1.0,
+            "rndPartHP": 0.0,
+            "splashBoxes": [],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 0.165
+        },
+        "SSC": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "simple_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1000000.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 1.0,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_ssc_1",
+                "CM_SB_ssc_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.22,
+            "volumeCoeff": 0.5
+        },
+        "St": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "simple_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1000000.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 1.0,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_stern_1"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 0.5
+        },
+        "acidDamage": 1.0,
+        "acidDuration": 20,
+        "armor": {
+            "1": 0.0,
+            "131121": 0.0,
+            "65584": 200.0,
+            "65585": 30.0,
+            "65587": 0.0,
+            "65595": 50.0,
+            "65600": 30.0,
+            "65603": 50.0,
+            "65620": 50.0,
+            "65622": 200.0,
+            "65623": 30.0,
+            "65624": 50.0,
+            "65629": 20.0,
+            "65632": 0.0
+        },
+        "armourCas": [
+            -1,
+            -1
+        ],
+        "armourCit": [
+            -1,
+            -1
+        ],
+        "armourDeck": [
+            -1,
+            -1
+        ],
+        "armourExtremities": [
+            -1,
+            -1
+        ],
+        "backwardPowerCoef": 3.0,
+        "barbettes": {},
+        "baseUnderwaterPitchAngle": 0.0,
+        "bodyType": "dynamic",
+        "boilerExplosionPostDeath": "particles/Empty_FX.xml",
+        "buoyancy": 200000,
+        "buoyancyEffects": [],
+        "buoyancyHighlightEffect": "particles/submarines/Sub_location.xml",
+        "buoyancyRudderDepths": [
+            0,
+            -8,
+            -16,
+            -24,
+            -32,
+            -40,
+            -48,
+            -56,
+            -64,
+            -72,
+            -80
+        ],
+        "buoyancyRudderResetTime": 1.0,
+        "buoyancyRudderTime": 1.0,
+        "buoyancyStates": {
+            "DEEP_WATER": [
+                [
+                    -34.0,
+                    -59.0
+                ],
+                0.63,
+                10.0
+            ],
+            "DEEP_WATER_INVUL": [
+                [
+                    -59.0,
+                    -80.0
+                ],
+                0.63,
+                10.0
+            ],
+            "PERISCOPE": [
+                [
+                    -4.0,
+                    -13.0
+                ],
+                0.63,
+                10.0
+            ],
+            "SEMI_DEEP_WATER": [
+                [
+                    -13.0,
+                    -34.0
+                ],
+                0.63,
+                10.0
+            ],
+            "SURFACE": [
+                [
+                    0.0,
+                    -4.0
+                ],
+                1.0,
+                1.0
+            ]
+        },
+        "buoyancyStopLine": 10.0,
+        "buoyancyStopLineMinSpeedCoeff": 0.35,
+        "burnNodes": [
+            [
+                0.5005,
+                0.3,
+                30.0
+            ],
+            [
+                0.5005,
+                0.3,
+                30.0
+            ],
+            [
+                0.5005,
+                0.3,
+                30.0
+            ],
+            [
+                0.5005,
+                0.3,
+                30.0
+            ]
+        ],
+        "canReceiveAcid": true,
+        "consumablePlaneTypes": {
+            "fighter": "",
+            "scout": ""
+        },
+        "coolingOffSpeed": 0.02,
+        "crackCoords": [
+            0.25,
+            0.0,
+            -0.25
+        ],
+        "customMiscs": {
+            "part11": [
+                "Horn"
+            ]
+        },
+        "deathBubblesEffect": "particles/NF_CC_seething_bubbles_post_death.xml",
+        "deathDetonateEffect": "particles/Empty_FX.xml",
+        "deathFaultEffect": "particles/Empty_FX.xml",
+        "deathFireEffect": "particles/Empty_FX.xml",
+        "deathFoamEffect": "particles/vehicles/Death_foam_medium_Monster_H2020.xml",
+        "deathFountainsEffect": "particles/NF_CC_water_fountains_post_death.xml",
+        "deathFumingEffect": "particles/NF_CC_fuming_at_flooding_post_death.xml",
+        "deathNodes": [
+            "HP_Ship_death_1",
+            "HP_Ship_death_2",
+            "HP_Ship_death_3"
+        ],
+        "deathPlaneEffect": "particles/NF_AA_death_catapult_ships.xml",
+        "deathPostFireEffect": "particles/NF_CC_fuming_post_fire.xml",
+        "deathSettings": "PXOS002_HW20",
+        "deathShellEffect": "particles/Empty_FX.xml",
+        "deathTorpedoEffect": "particles/NF_death_torpedo.xml",
+        "deathUnderWaterBubblesEffects": [
+            "particles/submarines/Sub_bomb_trace.xml",
+            "particles/submarines/Sub_bomb_trace.xml"
+        ],
+        "deckHeight": 6.0,
+        "deepwaterVisionCoeff": {},
+        "deepwaterVisionToPlaneCoeff": {},
+        "defaultCamouflage": "",
+        "dockYOffset": 0.0,
+        "draft": 11,
+        "effectCauldronExplosion": "particles/Empty_FX.xml",
+        "effectOnDeath": "particles/vehicles/Death_for_CC_Monster_H2020.xml",
+        "effectOnDetonatePowderChamber": "particles/simple_death.xml",
+        "effectOnFloodDeath": "particles/vehicles/Death_for_CC_Monster_H2020.xml",
+        "effectShipCracksAndOilPuddle": "particles/Empty_FX.xml",
+        "effects": {
+            "acid": [
+                [
+                    "HP_FX_Acid_1",
+                    "particles/vehicles/Flood_steam_exhaust_big_H2017.xml"
+                ],
+                [
+                    "HP_FX_Acid_1",
+                    "particles/vehicles/Flood_steam_exhaust_big_delayed_H2017.xml"
+                ],
+                [
+                    "HP_FX_Acid_1",
+                    "particles/vehicles/Flood_steam_medium_H2017.xml"
+                ]
+            ],
+            "death": [
+                [
+                    "HP_FX_Death_1",
+                    "particles/vehicles/Death_foam_medium_Monster_H2020.xml"
+                ],
+                [
+                    "HP_FX_Death_2",
+                    "particles/vehicles/Death_foam_medium_Monster_H2020.xml"
+                ],
+                [
+                    "HP_FX_Death_3",
+                    "particles/vehicles/Death_foam_medium_Monster_H2020.xml"
+                ]
+            ],
+            "fire1": [
+                [
+                    "HP_FX_Fire_1",
+                    "particles/vehicles/Fire_medium_Monster_H2020.xml"
+                ]
+            ],
+            "fire2": [
+                [
+                    "HP_FX_Fire_2",
+                    "particles/vehicles/Fire_medium_Monster_H2020.xml"
+                ]
+            ],
+            "fire3": [
+                [
+                    "HP_FX_Fire_3",
+                    "particles/vehicles/Fire_medium_Monster_H2020.xml"
+                ]
+            ],
+            "fire4": [
+                [
+                    "HP_FX_Fire_4",
+                    "particles/vehicles/Fire_medium_Monster_H2020.xml"
+                ]
+            ],
+            "fireResistance": [],
+            "fixDeluge": [],
+            "fixLight": [],
+            "flood": [
+                [
+                    "HP_FX_Flood_steam_1",
+                    "particles/vehicles/Flood_steam_big_H2020.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_1",
+                    "particles/vehicles/Flood_steam_exhaust_big_delayed_H2020.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_2",
+                    "particles/vehicles/Flood_steam_big_H2020.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_2",
+                    "particles/vehicles/Flood_steam_exhaust_big_H2020.xml"
+                ]
+            ],
+            "floodLight": [],
+            "horn": [],
+            "idle": [],
+            "idlePort": [],
+            "repairLight": [],
+            "smoke": [
+                [
+                    "HP_FX_Smoke_1",
+                    "particles/vehicles/Monster_CC_RunSmoke_H2020.xml"
+                ],
+                [
+                    "HP_FX_Smoke_2",
+                    "particles/vehicles/Monster_CC_RunSmoke_H2020.xml"
+                ]
+            ],
+            "waketraceback": [
+                [
+                    "HP_FX_WakeTraceBack",
+                    "particles/vehicles/WakeTraceReverce_back.xml"
+                ]
+            ],
+            "waketracefront": [
+                [
+                    "HP_FX_WakeTraceBack_special",
+                    "particles/vehicles/WakeTraceForward_back.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace",
+                    "particles/vehicles/WakeTraceForward_front.xml"
+                ]
+            ]
+        },
+        "enemyEngineEffects": false,
+        "enemyVisibilityCoeffByDepth": {
+            "-44.0": 1.0,
+            "0.0": 1.0
+        },
+        "enginePower": 88000000.0,
+        "finderBase": 7.0,
+        "finderHeight": 21.35,
+        "flagPoleModelName": "content/gameplay/common/misc/CM500/CM500.model",
+        "floodNodes": [
+            [
+                0.333,
+                0.25,
+                40.0
+            ],
+            [
+                0.333,
+                0.25,
+                40.0
+            ]
+        ],
+        "foghornEffect": "particles/Hooter.xml",
+        "health": 85000.0,
+        "heatChangeValue": 1,
+        "heightIntensityEffects": [],
+        "isBlind": false,
+        "isFakeSubmarine": false,
+        "mass": 169700.0,
+        "maxBuoyancyLevel": 0.0,
+        "maxBuoyancySpeed": 0.0,
+        "maxHeatValue": 10.0,
+        "maxRudderAngle": 30.0,
+        "maxSpeed": 80.0,
+        "model": "content/gameplay/events/ship/cruiser/XSC016_Monster_Cruiser/XSC016_Monster_Cruiser.model",
+        "numOfParts": 0,
+        "propellerEffect": "",
+        "propellerEffectReversed": "",
+        "pushingMaxRudderAngle": 16.0,
+        "pushingMinRudderAngle": 1.0,
+        "regenerationHPSpeed": 0.0,
+        "repairingCoeff": 0.0,
+        "rollEffect": 5.7,
+        "rudderPower": 8150000000.0,
+        "rudderTime": 1.0,
+        "shipBodySunkDifferenceCoeff": 2.0,
+        "shipBodySunkStartMassCoeff": 1.0,
+        "shipPartSunkDifferenceCoeff": 2.2,
+        "shipPartSunkStartMassCoeff": 2.2,
+        "shipWheelsPresent": false,
+        "sideDragCoef": 130000.0,
+        "sinkStartTime": [
+            [
+                4.0,
+                10.0
+            ],
+            [
+                2.0,
+                4.0
+            ],
+            [
+                3.0,
+                3.0
+            ],
+            [
+                4.0,
+                1.0
+            ]
+        ],
+        "sinkTime": [
+            [
+                45.0,
+                130.0
+            ],
+            [
+                18.0,
+                30.0
+            ],
+            [
+                21.0,
+                27.0
+            ],
+            [
+                27.0,
+                15.0
+            ]
+        ],
+        "sinkingEffects": "PCXS008_Cruiser",
+        "size": [
+            189.5,
+            23.6,
+            23.35
+        ],
+        "smokeScanRadius": 27.0,
+        "speedCoef": 1.0,
+        "timeBeforeCauldronExplosion": 4.0,
+        "timeBeforeDeathEffect": 0.2,
+        "tonnage": 16970.0,
+        "torpedoImpactMassImpulseCoeff": 0.5,
+        "turningRadius": 250.0,
+        "underwaterMaxRudderAngle": 0.0,
+        "underwaterRollEffect": 0.0,
+        "unpeculiarCamouflage": "",
+        "unpeculiarCamouflageColorSchemeId": 0,
+        "visibilityCoefATBA": 1e-06,
+        "visibilityCoefATBAByPlane": 1e-06,
+        "visibilityCoefFire": 2.0,
+        "visibilityCoefFireByPlane": 3.0,
+        "visibilityCoefGK": 1e-06,
+        "visibilityCoefGKByPlane": 30.0,
+        "visibilityCoefGKInSmoke": 30.0,
+        "visibilityCoefPinger": {
+            "0.0": 0.0
+        },
+        "visibilityCoefPingerByPlane": {
+            "0.0": 0.0
+        },
+        "visibilityCoefPingerInSmoke": 1e-06,
+        "visibilityCoeff": 15.0,
+        "visibilityCoeffUnderwaterDepths": {
+            "0.0": 1.0
+        },
+        "visibilityCoeffUnderwaterDepthsByPlane": {
+            "0.0": 1.0
+        },
+        "visibilityFactor": 30.0,
+        "visibilityFactorByPlane": 30.0,
+        "visibilityFactorInSmoke": 1e-06,
+        "visibilityFactorsBySubmarine": {
+            "DEEP_WATER": 30.0,
+            "DEEP_WATER_INVUL": 30.0,
+            "PERISCOPE": 30.0,
+            "SEMI_DEEP_WATER": 30.0,
+            "SURFACE": 30.0
+        }
+    },
+    "A_Torpedoes": {
+        "HP_XGM_1": {
+            "HitLocationTorpedo": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 15,
+                "autoRepairTimeMin": 15,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": false,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "torpedo_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1000000.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "ammoList": [
+                "PXPT121_Monster_Cruiser"
+            ],
+            "armor": {
+                "1": 0.0,
+                "65568": 200.0,
+                "65569": 0.0,
+                "65571": 0.0
+            },
+            "barrelDiameter": 0.61,
+            "canRotate": true,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/events/gun/torpedo/XGT141_Monster_Gun/XGT141_Monster_Gun_dead.model",
+            "deadZone": [],
+            "horizSector": [
+                -70.0,
+                70.0
+            ],
+            "id": 4146488592,
+            "index": "PXGT141",
+            "lensEffect": "",
+            "mainSector": [
+                -90.0,
+                90.0
+            ],
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/events/gun/torpedo/XGT141_Monster_Gun/XGT141_Monster_Gun.model",
+            "name": "PXGT141_MONSTER_GUN_TORP",
+            "numAmmos": 1000,
+            "numBarrels": 3,
+            "position": [
+                0.5,
+                1.0
+            ],
+            "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+            "rotationSpeed": [
+                25.0,
+                25.0
+            ],
+            "shootSector": [
+                0.0,
+                0.0
+            ],
+            "shotDelay": 15.0,
+            "shotEffect": "particles/guns/torpedo.xml",
+            "shotEffectCap": "particles/Empty_FX.xml",
+            "smallGun": null,
+            "timeBetweenShots": 0.2,
+            "timeToChangeAngle": 1,
+            "timeToChangeSpeed": 1,
+            "torpedoAngles": [
+                1.3,
+                1.3
+            ],
+            "typeinfo": {
+                "nation": "Events",
+                "species": "Torpedo",
+                "type": "Gun"
+            },
+            "vertSector": [
+                0.0,
+                1.0
+            ]
+        },
+        "timeToChangeAmmo": 10.0,
+        "useGroups": false,
+        "useOneShot": false
+    },
+    "BattleUpgradeInfo": {
+        "id": 4293254416,
+        "index": "PXIU001",
+        "level_1": {
+            "points": 0,
+            "reward": {
+                "type": 0,
+                "weight": 0
+            }
+        },
+        "level_2": {
+            "points": 200,
+            "reward": {
+                "available": 1,
+                "count": 2,
+                "item_2": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM006_GMShotDelay_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_21": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM021_SGRudderTime_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_4": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM004_HealDamageCoef_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_8": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM008_GMMaxDistance_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_9": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM009_GMAlpha_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "type": 4,
+                "weight": 0
+            }
+        },
+        "level_3": {
+            "points": 300,
+            "reward": {
+                "available": 1,
+                "count": 2,
+                "item_2": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM006_GMShotDelay_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_21": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM021_SGRudderTime_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_4": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM004_HealDamageCoef_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_8": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM008_GMMaxDistance_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_9": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM009_GMAlpha_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "type": 4,
+                "weight": 0
+            }
+        },
+        "level_4": {
+            "points": 500,
+            "reward": {
+                "available": 1,
+                "count": 2,
+                "item_2": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM006_GMShotDelay_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_21": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM021_SGRudderTime_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_4": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM004_HealDamageCoef_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_8": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM008_GMMaxDistance_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_9": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM009_GMAlpha_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "type": 4,
+                "weight": 0
+            }
+        },
+        "level_5": {
+            "points": 1000,
+            "reward": {
+                "available": 1,
+                "count": 2,
+                "item_2": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM006_GMShotDelay_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_21": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM021_SGRudderTime_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_4": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM004_HealDamageCoef_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_8": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM008_GMMaxDistance_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_9": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM009_GMAlpha_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "type": 4,
+                "weight": 0
+            }
+        },
+        "level_6": {
+            "points": 1500,
+            "reward": {
+                "available": 1,
+                "count": 2,
+                "item_2": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM006_GMShotDelay_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_21": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM021_SGRudderTime_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_4": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM004_HealDamageCoef_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_8": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM008_GMMaxDistance_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_9": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM009_GMAlpha_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "type": 4,
+                "weight": 0
+            }
+        },
+        "level_7": {
+            "points": 1500,
+            "reward": {
+                "available": 1,
+                "count": 2,
+                "item_2": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM006_GMShotDelay_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_21": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM021_SGRudderTime_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_4": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM004_HealDamageCoef_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_8": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM008_GMMaxDistance_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "item_9": {
+                    "duration": -1,
+                    "level": 1,
+                    "params": "PXOM009_GMAlpha_H2020",
+                    "type": 1,
+                    "weight": 0
+                },
+                "type": 4,
+                "weight": 0
+            }
+        },
+        "name": "PXIU001_H2020",
+        "typeinfo": {
+            "nation": "Events",
+            "species": "Upgrade",
+            "type": "Component"
+        }
+    },
+    "ShipAbilities": {
+        "AbilitySlot0": {
+            "abils": [
+                [
+                    "PXY401_CrashCrew_H2020",
+                    "H2020"
+                ]
+            ],
+            "slot": 0
+        },
+        "AbilitySlot1": {
+            "abils": [
+                [
+                    "PXY402_Regen_H2020",
+                    "H2020"
+                ]
+            ],
+            "slot": 1
+        },
+        "AbilitySlot2": {
+            "abils": [
+                [
+                    "PXY411_CircleWave_H2020",
+                    "H2020_MC"
+                ]
+            ],
+            "slot": 2
+        },
+        "AbilitySlot3": {
+            "abils": [],
+            "slot": 3
+        },
+        "AbilitySlot4": {
+            "abils": [],
+            "slot": 4
+        }
+    },
+    "ShipUpgradeInfo": {
+        "PXUA401_ART_MONSTER_CRUISER": {
+            "canBuy": true,
+            "components": {
+                "artillery": [
+                    "A_Artillery"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Artillery"
+        },
+        "PXUE401_ENG_MONSTER_CRUISER": {
+            "canBuy": true,
+            "components": {
+                "engine": [
+                    "A_Engine"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Engine"
+        },
+        "PXUH401_MONSTER_CRUISER": {
+            "canBuy": true,
+            "components": {
+                "airArmament": [],
+                "airDefense": [],
+                "artillery": [
+                    "A_Artillery"
+                ],
+                "atba": [],
+                "depthCharges": [],
+                "directors": [],
+                "finders": [],
+                "hull": [
+                    "A_Hull"
+                ],
+                "pinger": [],
+                "radars": [],
+                "torpedoes": [
+                    "A_Torpedoes"
+                ]
+            },
+            "disabledAbilities": [],
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Hull"
+        },
+        "PXUS401_SUO_MONSTER_CRUISER": {
+            "canBuy": true,
+            "components": {
+                "fireControl": [
+                    "A_FireControl"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Suo"
+        },
+        "PXUT401_TORP_MONSTER_CRUISER": {
+            "canBuy": true,
+            "components": {
+                "torpedoes": [
+                    "A_Torpedoes"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Torpedoes"
+        },
+        "costCR": 1,
+        "costGold": 0,
+        "costSaleGold": 0,
+        "costXP": 1,
+        "lockedConfig": [],
+        "value": 1
+    },
+    "Specials": {
+        "buffsShiftMaxLevel": 0,
+        "buffsShiftSpeed": 1.0,
+        "buffsStartPool": 0,
+        "modifiers": {}
+    },
+    "UnderwaterCamera": {
+        "cameraDragOff": 1000,
+        "cameraDragOffTime": 5,
+        "cameraDragOnTime": 5,
+        "castZoom": {},
+        "maxZoomLength": 5.0,
+        "shipHeigthCoeff": 3.0,
+        "shipLengthCoeff": 1.0,
+        "shipWidthCoeff": 3.0,
+        "zoomDragCoefficient": 0.85
+    },
+    "alternateFlags": [],
+    "apDamageLimitCoeff": 0,
+    "battleSignalsModifiersOrder": [],
+    "battleSignalsOrder": [],
+    "canEquipCamouflage": true,
+    "custom": {},
+    "defaultCrew": "PXW163_Commander_MonsterCruiser_H2020",
+    "effects": {},
+    "flagsScale": 0.5,
+    "group": "disabled",
+    "id": 4278105360,
+    "index": "PXSC016",
+    "isPaperShip": true,
+    "level": 10,
+    "maxEquippedFlags": 8,
+    "name": "PXSC016_Monster_Cruiser",
+    "nationFlagScale": 0.5,
+    "nativePermoflage": "",
+    "navalFlag": "halloween_2021_monsters",
+    "needShowProjectYear": true,
+    "peculiarity": "default",
+    "peculiarityEffects": {},
+    "peculiarityFlag": "",
+    "peculiarityModels": {},
+    "permoflages": [],
+    "steerAngle": [
+        0.2,
+        0.7,
+        1.0
+    ],
+    "steerDist": null,
+    "subnation": "",
+    "tags": [],
+    "typeinfo": {
+        "nation": "Events",
+        "species": "Cruiser",
+        "type": "Ship"
+    },
+    "unpeculiarShip": ""
+}

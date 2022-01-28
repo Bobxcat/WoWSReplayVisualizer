@@ -1,0 +1,5413 @@
+{
+    "AB_AirSupport": {
+        "chargesNum": 1,
+        "climbAngle": 30,
+        "flyAwayTime": 5.0,
+        "maxDist": 4000,
+        "maxPlaneFlightDist": 3400,
+        "minDist": 500,
+        "planeName": "PAAD902_ASW_T6",
+        "reloadTime": 60,
+        "timeBetweenShots": 2.0,
+        "timeFromHeaven": 2.0
+    },
+    "AIParams": {
+        "default_distance": 0,
+        "max_distance": 0,
+        "min_distance": 0
+    },
+    "A_ATBA": {
+        "Far1": {
+            "areaDamage": 26.0,
+            "areaDamagePeriod": 0.285714285714,
+            "barrageEffect": [
+                "particles/airplanes/Air_defense_barrage_1.xml",
+                "particles/airplanes/Air_defense_barrage_2.xml",
+                "particles/airplanes/Air_defense_barrage_3.xml"
+            ],
+            "barrageTracerTexture": "particles/trails/Trail_Barrage_DPS.dds",
+            "bubbleBarrageTracerTexture": "particles/trails/Trail_Barrage_Bubble.dds",
+            "bubbleDamage": 0.0,
+            "bubbleDuration": 3.0,
+            "bubbleEffect": "",
+            "bubbleNonPriorTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "bubblePriorTracerTexture": "particles/trails/Trail_Aura_Prior_Bubble.dds",
+            "bubbleRadius": 0.0,
+            "bubbleTracerLength": 35.0,
+            "bubbleTracerOpacity": 1.0,
+            "bubbleTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "bubbleTracerThickness": 0.035,
+            "detonationEffect": [
+                "particles/airplanes/Air_defense_explosion_1.xml",
+                "particles/airplanes/Air_defense_explosion_2.xml",
+                "particles/airplanes/Air_defense_explosion_3.xml"
+            ],
+            "enableBarrage": true,
+            "enableCrewSelectedTargetCoeff": false,
+            "explosionCount": 0.0,
+            "groupHighIntensityEffect": "particles/Empty_FX.xml",
+            "groupLowIntensityEffect": "particles/Empty_FX.xml",
+            "guns": [
+                "HP_GGS_1",
+                "HP_GGS_2",
+                "HP_GGS_3",
+                "HP_GGS_4"
+            ],
+            "halfOuterBubbleZone": 50,
+            "hitChance": 0.9,
+            "innerBubbleCount": 0.0,
+            "innerBubbleSpawnTimeRange": [
+                2.65,
+                3.15
+            ],
+            "innerBubbleZone": 20,
+            "isJoint": true,
+            "maxBubbleActivationDelay": 0.4,
+            "maxDistance": 5200.0,
+            "minBubbleActivationDelay": 0.1,
+            "minDistance": 100.0,
+            "missDetonationEffect": "particles/airplanes/Air_defense_explosion_fake_1.xml",
+            "nonPriorTracerTexture": "particles/trails/Trail_Aura_NonPrior_DPS.dds",
+            "outerBubbleCount": 0.0,
+            "outerBubbleSpawnTimeRange": [
+                2.45,
+                2.65
+            ],
+            "ownBarrageTracerTexture": "particles/trails/Trail_Barrage_DPS.dds",
+            "ownBubbleBarrageTracerTexture": "particles/trails/Trail_Barrage_Bubble.dds",
+            "ownBubbleNonPriorTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "ownBubblePriorTracerTexture": "particles/trails/Trail_Aura_Prior_Bubble.dds",
+            "ownBubbleTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "ownNonPriorTracerTexture": "particles/trails/Trail_Aura_NonPrior_DPS.dds",
+            "ownPriorTracerTexture": "particles/trails/Trail_Aura_Prior_DPS.dds",
+            "ownTracerTexture": "particles/trails/Trail_Aura_DPS.dds",
+            "priorTracerTexture": "particles/trails/Trail_Aura_Prior_DPS.dds",
+            "shotDelay": 5.0,
+            "shotTravelTime": 1.35,
+            "timeUniversalsOff": 0.0,
+            "timeUniversalsOn": 0.0,
+            "tracerLength": 35.0,
+            "tracerOpacity": 1.0,
+            "tracerTexture": "particles/trails/Trail_Aura_DPS.dds",
+            "tracerThickness": 0.021,
+            "tracerVelocity": 75.0,
+            "type": "far",
+            "waterEffect": "particles/Empty_FX.xml"
+        },
+        "Far1_Bubbles": {
+            "areaDamage": 0.0,
+            "areaDamagePeriod": 0.285714285714,
+            "barrageEffect": [
+                "particles/airplanes/Air_defense_barrage_1.xml",
+                "particles/airplanes/Air_defense_barrage_2.xml",
+                "particles/airplanes/Air_defense_barrage_3.xml"
+            ],
+            "barrageTracerTexture": "particles/trails/Trail_Barrage_DPS.dds",
+            "bubbleBarrageTracerTexture": "particles/trails/Trail_Barrage_Bubble.dds",
+            "bubbleDamage": 190.0,
+            "bubbleDuration": 3.0,
+            "bubbleEffect": "",
+            "bubbleNonPriorTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "bubblePriorTracerTexture": "particles/trails/Trail_Aura_Prior_Bubble.dds",
+            "bubbleRadius": 2.475,
+            "bubbleTracerLength": 35.0,
+            "bubbleTracerOpacity": 1.0,
+            "bubbleTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "bubbleTracerThickness": 0.035,
+            "detonationEffect": [
+                "particles/airplanes/Air_defense_explosion_1.xml",
+                "particles/airplanes/Air_defense_explosion_2.xml",
+                "particles/airplanes/Air_defense_explosion_3.xml"
+            ],
+            "enableBarrage": true,
+            "enableCrewSelectedTargetCoeff": false,
+            "explosionCount": 2.0,
+            "groupHighIntensityEffect": "particles/Empty_FX.xml",
+            "groupLowIntensityEffect": "particles/Empty_FX.xml",
+            "guns": [
+                "HP_GGS_1",
+                "HP_GGS_2",
+                "HP_GGS_3",
+                "HP_GGS_4"
+            ],
+            "halfOuterBubbleZone": 50,
+            "hitChance": 0.9,
+            "innerBubbleCount": 3.0,
+            "innerBubbleSpawnTimeRange": [
+                2.65,
+                3.15
+            ],
+            "innerBubbleZone": 20,
+            "isJoint": true,
+            "maxBubbleActivationDelay": 0.4,
+            "maxDistance": 5200.0,
+            "minBubbleActivationDelay": 0.1,
+            "minDistance": 3500.0,
+            "missDetonationEffect": "particles/airplanes/Air_defense_explosion_fake_1.xml",
+            "nonPriorTracerTexture": "particles/trails/Trail_Aura_NonPrior_DPS.dds",
+            "outerBubbleCount": 1.0,
+            "outerBubbleSpawnTimeRange": [
+                2.45,
+                2.65
+            ],
+            "ownBarrageTracerTexture": "particles/trails/Trail_Barrage_DPS.dds",
+            "ownBubbleBarrageTracerTexture": "particles/trails/Trail_Barrage_Bubble.dds",
+            "ownBubbleNonPriorTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "ownBubblePriorTracerTexture": "particles/trails/Trail_Aura_Prior_Bubble.dds",
+            "ownBubbleTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "ownNonPriorTracerTexture": "particles/trails/Trail_Aura_NonPrior_DPS.dds",
+            "ownPriorTracerTexture": "particles/trails/Trail_Aura_Prior_DPS.dds",
+            "ownTracerTexture": "particles/trails/Trail_Aura_DPS.dds",
+            "priorTracerTexture": "particles/trails/Trail_Aura_Prior_DPS.dds",
+            "shotDelay": 5.0,
+            "shotTravelTime": 1.35,
+            "timeUniversalsOff": 0.0,
+            "timeUniversalsOn": 0.0,
+            "tracerLength": 35.0,
+            "tracerOpacity": 1.0,
+            "tracerTexture": "particles/trails/Trail_Aura_DPS.dds",
+            "tracerThickness": 0.021,
+            "tracerVelocity": 75.0,
+            "type": "far",
+            "waterEffect": "particles/Empty_FX.xml"
+        },
+        "HP_GGS_1": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.6,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PGPA085_105mm_HE_HE_33lbs"
+            ],
+            "antiAirAuraDistance": 150.0,
+            "antiAirAuraStrength": 0.166,
+            "armor": {
+                "65580": 20.0
+            },
+            "barrelDiameter": 0.105,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+            "deadMesh": "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33_dead.model",
+            "deadZone": [
+                [
+                    -10.0,
+                    0.0
+                ]
+            ],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -145.0,
+                0.0
+            ],
+            "id": 4291225392,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PGGS003",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33.model",
+            "name": "PGGS003_105_mm_SKC_33",
+            "numBarrels": 2,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 3.35,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -1.0,
+                80.0
+            ]
+        },
+        "HP_GGS_2": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.6,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PGPA085_105mm_HE_HE_33lbs"
+            ],
+            "antiAirAuraDistance": 150.0,
+            "antiAirAuraStrength": 0.166,
+            "armor": {
+                "65580": 20.0
+            },
+            "barrelDiameter": 0.105,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+            "deadMesh": "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33_dead.model",
+            "deadZone": [
+                [
+                    0.0,
+                    10.0
+                ]
+            ],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                0.0,
+                145.0
+            ],
+            "id": 4291225392,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PGGS003",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33.model",
+            "name": "PGGS003_105_mm_SKC_33",
+            "numBarrels": 2,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 3.35,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -1.0,
+                80.0
+            ]
+        },
+        "HP_GGS_3": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.6,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PGPA085_105mm_HE_HE_33lbs"
+            ],
+            "antiAirAuraDistance": 150.0,
+            "antiAirAuraStrength": 0.166,
+            "armor": {
+                "65580": 20.0
+            },
+            "barrelDiameter": 0.105,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+            "deadMesh": "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33_dead.model",
+            "deadZone": [
+                [
+                    0.0,
+                    10.0
+                ]
+            ],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                0.0,
+                150.0
+            ],
+            "id": 4291225392,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PGGS003",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33.model",
+            "name": "PGGS003_105_mm_SKC_33",
+            "numBarrels": 2,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 3.35,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -1.0,
+                80.0
+            ]
+        },
+        "HP_GGS_4": {
+            "HitLocationATBA": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.6,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "atba_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "aiATBAmultiplier": 3,
+            "ammoList": [
+                "PGPA085_105mm_HE_HE_33lbs"
+            ],
+            "antiAirAuraDistance": 150.0,
+            "antiAirAuraStrength": 0.166,
+            "armor": {
+                "65580": 20.0
+            },
+            "barrelDiameter": 0.105,
+            "clusterID": 0,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vsmall.xml",
+            "deadMesh": "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33_dead.model",
+            "deadZone": [
+                [
+                    -10.0,
+                    0.0
+                ]
+            ],
+            "delim": 0.6,
+            "effectIntensityModifier": 1.0,
+            "horizSector": [
+                -150.0,
+                0.0
+            ],
+            "id": 4291225392,
+            "idealDistance": 333.333,
+            "idealRadius": 20,
+            "index": "PGGS003",
+            "lensEffect": "",
+            "minRadius": 1.0,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/secondary/GGS003_105_mm_SKC_33/GGS003_105_mm_SKC_33.model",
+            "name": "PGGS003_105_mm_SKC_33",
+            "numBarrels": 2,
+            "pitchDeadZones": [],
+            "purgingEffect": "particles/guns/PMK_Purging_50to110.xml",
+            "radiusOnDelim": 0.8,
+            "radiusOnMax": 1.0,
+            "radiusOnZero": 0.1,
+            "rotationSpeed": [
+                60.0,
+                1.0
+            ],
+            "shotDelay": 3.35,
+            "shotEffect": "particles/guns/PMK_Shot_50to110.xml",
+            "smallGun": true,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Secondary",
+                "type": "Gun"
+            },
+            "vertSector": [
+                -1.0,
+                80.0
+            ]
+        },
+        "artificialOffset": 0,
+        "maxDist": 6300.0,
+        "minDistH": 50.0,
+        "minDistV": 110.0,
+        "sigmaCount": 1.0,
+        "taperDist": 0.0,
+        "targetWeightAllyAttacker": 1.0,
+        "targetWeightDist": 1.0,
+        "targetWeightHealth": 1.0,
+        "targetWeightIncoming": 10.0,
+        "targetWeightMaxDist": 2.0,
+        "targetWeightMaxHealth": 1.0,
+        "targetWeightMinDist": 10.0,
+        "targetWeightMinHealth": 5.0,
+        "targetWeightMyAttacker": 1.0,
+        "targetWeightOutcoming": 0.1,
+        "targetWeightType": 1.0,
+        "targetWeightTypeTable": {
+            "AirCarrier": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Auxiliary": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Battleship": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Cruiser": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Destroyer": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Submarine": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "targetWeightYaw": 1.0
+    },
+    "A_AirArmament": {
+        "HP_GC_1": {
+            "angle": 90.0,
+            "dist": 0.0,
+            "hidePlane": false,
+            "id": 4288870192,
+            "index": "PGC005",
+            "linkedGunAngles": [],
+            "linkedGunName": null,
+            "linkedRotationSpeedCoeff": 1.0,
+            "model": "content/gameplay/germany/catapult/GC005_Catapult_5/GC005_Catapult_5.model",
+            "name": "PGC005_Catapult_5",
+            "rotateTime": 1.25,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Catapult"
+            }
+        },
+        "auraCoeff": 1.0,
+        "deckPlaceCount": 0,
+        "isIndependentLaunchpad": false,
+        "isParallelLaunch": false,
+        "launchPrepareTime": 0,
+        "launchpadType": "catapult",
+        "planesReserveCapacity": 0
+    },
+    "A_AirDefense": {
+        "HP_GGA_1": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.042,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U_dead.model",
+            "id": 4277135152,
+            "index": "PGGA017",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U.model",
+            "name": "PGGA017_20mm_Flak_38_M43U",
+            "numBarrels": 2,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_10": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.06,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA008_20mm_Flack_38_quad/GGA008_20mm_Flack_38_quad_dead.model",
+            "id": 4286572336,
+            "index": "PGGA008",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA008_20mm_Flack_38_quad/GGA008_20mm_Flack_38_quad.model",
+            "name": "PGGA008_20mm_Flack_38_quad",
+            "numBarrels": 4,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_11": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.042,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U_dead.model",
+            "id": 4277135152,
+            "index": "PGGA017",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U.model",
+            "name": "PGGA017_20mm_Flak_38_M43U",
+            "numBarrels": 2,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_12": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.042,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U_dead.model",
+            "id": 4277135152,
+            "index": "PGGA017",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U.model",
+            "name": "PGGA017_20mm_Flak_38_M43U",
+            "numBarrels": 2,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_13": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 117.0,
+            "antiAirAuraStrength": 0.075,
+            "barrelDiameter": 0.04,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28_dead.model",
+            "id": 4257212208,
+            "index": "PGGA036",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28.model",
+            "name": "PGGA036_40mm_flak_28",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_14": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 117.0,
+            "antiAirAuraStrength": 0.075,
+            "barrelDiameter": 0.04,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28_dead.model",
+            "id": 4257212208,
+            "index": "PGGA036",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28.model",
+            "name": "PGGA036_40mm_flak_28",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_15": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.06,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA008_20mm_Flack_38_quad/GGA008_20mm_Flack_38_quad_dead.model",
+            "id": 4286572336,
+            "index": "PGGA008",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA008_20mm_Flack_38_quad/GGA008_20mm_Flack_38_quad.model",
+            "name": "PGGA008_20mm_Flack_38_quad",
+            "numBarrels": 4,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_16": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.06,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA008_20mm_Flack_38_quad/GGA008_20mm_Flack_38_quad_dead.model",
+            "id": 4286572336,
+            "index": "PGGA008",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA008_20mm_Flack_38_quad/GGA008_20mm_Flack_38_quad.model",
+            "name": "PGGA008_20mm_Flack_38_quad",
+            "numBarrels": 4,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_17": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 117.0,
+            "antiAirAuraStrength": 0.075,
+            "barrelDiameter": 0.04,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28_dead.model",
+            "id": 4257212208,
+            "index": "PGGA036",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28.model",
+            "name": "PGGA036_40mm_flak_28",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_18": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 117.0,
+            "antiAirAuraStrength": 0.075,
+            "barrelDiameter": 0.04,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28_dead.model",
+            "id": 4257212208,
+            "index": "PGGA036",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28.model",
+            "name": "PGGA036_40mm_flak_28",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_19": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.03,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA007_20mm_Flak_38/GGA007_20mm_Flak_38_dead.model",
+            "id": 4287620912,
+            "index": "PGGA007",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA007_20mm_Flak_38/GGA007_20mm_Flak_38.model",
+            "name": "PGGA007_20mm_Flak_38",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_2": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.042,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U_dead.model",
+            "id": 4277135152,
+            "index": "PGGA017",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U.model",
+            "name": "PGGA017_20mm_Flak_38_M43U",
+            "numBarrels": 2,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_20": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.03,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA007_20mm_Flak_38/GGA007_20mm_Flak_38_dead.model",
+            "id": 4287620912,
+            "index": "PGGA007",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA007_20mm_Flak_38/GGA007_20mm_Flak_38.model",
+            "name": "PGGA007_20mm_Flak_38",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_21": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.03,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA007_20mm_Flak_38/GGA007_20mm_Flak_38_dead.model",
+            "id": 4287620912,
+            "index": "PGGA007",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA007_20mm_Flak_38/GGA007_20mm_Flak_38.model",
+            "name": "PGGA007_20mm_Flak_38",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_22": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.03,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA007_20mm_Flak_38/GGA007_20mm_Flak_38_dead.model",
+            "id": 4287620912,
+            "index": "PGGA007",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA007_20mm_Flak_38/GGA007_20mm_Flak_38.model",
+            "name": "PGGA007_20mm_Flak_38",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_3": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.042,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U_dead.model",
+            "id": 4277135152,
+            "index": "PGGA017",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U.model",
+            "name": "PGGA017_20mm_Flak_38_M43U",
+            "numBarrels": 2,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_4": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.042,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U_dead.model",
+            "id": 4277135152,
+            "index": "PGGA017",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U.model",
+            "name": "PGGA017_20mm_Flak_38_M43U",
+            "numBarrels": 2,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_5": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 117.0,
+            "antiAirAuraStrength": 0.075,
+            "barrelDiameter": 0.04,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28_dead.model",
+            "id": 4257212208,
+            "index": "PGGA036",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28.model",
+            "name": "PGGA036_40mm_flak_28",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_6": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 117.0,
+            "antiAirAuraStrength": 0.075,
+            "barrelDiameter": 0.04,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28_dead.model",
+            "id": 4257212208,
+            "index": "PGGA036",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA036_40mm_flak_28/GGA036_40mm_flak_28.model",
+            "name": "PGGA036_40mm_flak_28",
+            "numBarrels": 1,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_7": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.042,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U_dead.model",
+            "id": 4277135152,
+            "index": "PGGA017",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U.model",
+            "name": "PGGA017_20mm_Flak_38_M43U",
+            "numBarrels": 2,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_8": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.042,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U_dead.model",
+            "id": 4277135152,
+            "index": "PGGA017",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA017_20mm_Flak_38_M43U/GGA017_20mm_Flak_38_M43U.model",
+            "name": "PGGA017_20mm_Flak_38_M43U",
+            "numBarrels": 2,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "HP_GGA_9": {
+            "HitLocationAirDefense": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 10,
+                "autoRepairTimeMin": 5,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.0,
+                    0.0
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "airdefense_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 600.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.8,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "antiAirAuraDistance": 67.0,
+            "antiAirAuraStrength": 0.06,
+            "barrelDiameter": 0.02,
+            "deadMesh": "content/gameplay/germany/gun/aaircraft/GGA008_20mm_Flack_38_quad/GGA008_20mm_Flack_38_quad_dead.model",
+            "id": 4286572336,
+            "index": "PGGA008",
+            "model": "content/gameplay/germany/gun/aaircraft/GGA008_20mm_Flack_38_quad/GGA008_20mm_Flack_38_quad.model",
+            "name": "PGGA008_20mm_Flack_38_quad",
+            "numBarrels": 4,
+            "shotDelay": 5.0,
+            "shotEffect": "particles/guns/AA_shot.xml",
+            "smallGun": null,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "AAircraft",
+                "type": "Gun"
+            }
+        },
+        "Med1": {
+            "areaDamage": 25.0,
+            "areaDamagePeriod": 0.285714285714,
+            "barrageEffect": [
+                "particles/airplanes/Air_defense_barrage_1.xml",
+                "particles/airplanes/Air_defense_barrage_2.xml",
+                "particles/airplanes/Air_defense_barrage_3.xml"
+            ],
+            "barrageTracerTexture": "particles/trails/Trail_Barrage_DPS.dds",
+            "bubbleBarrageTracerTexture": "particles/trails/Trail_Barrage_Bubble.dds",
+            "bubbleDamage": 0.0,
+            "bubbleDuration": 4.75,
+            "bubbleEffect": "",
+            "bubbleNonPriorTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "bubblePriorTracerTexture": "particles/trails/Trail_Aura_Prior_Bubble.dds",
+            "bubbleRadius": 1.0,
+            "bubbleTracerLength": 35.0,
+            "bubbleTracerOpacity": 1.0,
+            "bubbleTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "bubbleTracerThickness": 0.035,
+            "detonationEffect": [
+                "particles/airplanes/Air_defense_explosion_1.xml",
+                "particles/airplanes/Air_defense_explosion_2.xml",
+                "particles/airplanes/Air_defense_explosion_3.xml"
+            ],
+            "enableBarrage": true,
+            "enableCrewSelectedTargetCoeff": false,
+            "explosionCount": 15,
+            "groupHighIntensityEffect": "particles/Empty_FX.xml",
+            "groupLowIntensityEffect": "particles/Empty_FX.xml",
+            "guns": [
+                "HP_GGA_13",
+                "HP_GGA_14",
+                "HP_GGA_17",
+                "HP_GGA_18",
+                "HP_GGA_5",
+                "HP_GGA_6"
+            ],
+            "halfOuterBubbleZone": 60,
+            "hitChance": 0.9,
+            "innerBubbleCount": 0,
+            "innerBubbleSpawnTimeRange": [
+                3.3,
+                3.8
+            ],
+            "innerBubbleZone": 20,
+            "isJoint": true,
+            "maxBubbleActivationDelay": 0.5,
+            "maxDistance": 3500.0,
+            "minBubbleActivationDelay": 0.2,
+            "minDistance": 100.0,
+            "missDetonationEffect": "particles/airplanes/Air_defense_explosion_fake_1.xml",
+            "nonPriorTracerTexture": "particles/trails/Trail_Aura_NonPrior_DPS.dds",
+            "outerBubbleCount": 0,
+            "outerBubbleSpawnTimeRange": [
+                2.5,
+                3
+            ],
+            "ownBarrageTracerTexture": "particles/trails/Trail_Barrage_DPS.dds",
+            "ownBubbleBarrageTracerTexture": "particles/trails/Trail_Barrage_Bubble.dds",
+            "ownBubbleNonPriorTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "ownBubblePriorTracerTexture": "particles/trails/Trail_Aura_Prior_Bubble.dds",
+            "ownBubbleTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "ownNonPriorTracerTexture": "particles/trails/Trail_Aura_NonPrior_DPS.dds",
+            "ownPriorTracerTexture": "particles/trails/Trail_Aura_Prior_DPS.dds",
+            "ownTracerTexture": "particles/trails/Trail_Aura_DPS.dds",
+            "priorTracerTexture": "particles/trails/Trail_Aura_Prior_DPS.dds",
+            "shotDelay": 0.5,
+            "shotTravelTime": 1.5,
+            "timeUniversalsOff": 0.0,
+            "timeUniversalsOn": 0.0,
+            "tracerLength": 20.0,
+            "tracerOpacity": 1.0,
+            "tracerTexture": "particles/trails/Trail_Aura_DPS.dds",
+            "tracerThickness": 0.021,
+            "tracerVelocity": 50.0,
+            "type": "medium",
+            "waterEffect": "particles/Empty_FX.xml"
+        },
+        "Near1": {
+            "areaDamage": 47.0,
+            "areaDamagePeriod": 0.285714285714,
+            "barrageEffect": [
+                "particles/airplanes/Air_defense_barrage_1.xml",
+                "particles/airplanes/Air_defense_barrage_2.xml",
+                "particles/airplanes/Air_defense_barrage_3.xml"
+            ],
+            "barrageTracerTexture": "particles/trails/Trail_Barrage_DPS.dds",
+            "bubbleBarrageTracerTexture": "particles/trails/Trail_Barrage_Bubble.dds",
+            "bubbleDamage": 0.0,
+            "bubbleDuration": 4.75,
+            "bubbleEffect": "",
+            "bubbleNonPriorTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "bubblePriorTracerTexture": "particles/trails/Trail_Aura_Prior_Bubble.dds",
+            "bubbleRadius": 1.0,
+            "bubbleTracerLength": 35.0,
+            "bubbleTracerOpacity": 1.0,
+            "bubbleTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "bubbleTracerThickness": 0.035,
+            "detonationEffect": [
+                "particles/airplanes/Air_defense_explosion_1.xml",
+                "particles/airplanes/Air_defense_explosion_2.xml",
+                "particles/airplanes/Air_defense_explosion_3.xml"
+            ],
+            "enableBarrage": true,
+            "enableCrewSelectedTargetCoeff": false,
+            "explosionCount": 15,
+            "groupHighIntensityEffect": "particles/Empty_FX.xml",
+            "groupLowIntensityEffect": "particles/Empty_FX.xml",
+            "guns": [
+                "HP_GGA_1",
+                "HP_GGA_10",
+                "HP_GGA_11",
+                "HP_GGA_12",
+                "HP_GGA_15",
+                "HP_GGA_16",
+                "HP_GGA_19",
+                "HP_GGA_2",
+                "HP_GGA_20",
+                "HP_GGA_21",
+                "HP_GGA_22",
+                "HP_GGA_3",
+                "HP_GGA_4",
+                "HP_GGA_7",
+                "HP_GGA_8",
+                "HP_GGA_9"
+            ],
+            "halfOuterBubbleZone": 60,
+            "hitChance": 0.85,
+            "innerBubbleCount": 0,
+            "innerBubbleSpawnTimeRange": [
+                3.3,
+                3.8
+            ],
+            "innerBubbleZone": 20,
+            "isJoint": true,
+            "maxBubbleActivationDelay": 0.5,
+            "maxDistance": 2000.0,
+            "minBubbleActivationDelay": 0.2,
+            "minDistance": 100.0,
+            "missDetonationEffect": "particles/airplanes/Air_defense_explosion_fake_1.xml",
+            "nonPriorTracerTexture": "particles/trails/Trail_Aura_NonPrior_DPS.dds",
+            "outerBubbleCount": 0,
+            "outerBubbleSpawnTimeRange": [
+                2.5,
+                3
+            ],
+            "ownBarrageTracerTexture": "particles/trails/Trail_Barrage_DPS.dds",
+            "ownBubbleBarrageTracerTexture": "particles/trails/Trail_Barrage_Bubble.dds",
+            "ownBubbleNonPriorTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "ownBubblePriorTracerTexture": "particles/trails/Trail_Aura_Prior_Bubble.dds",
+            "ownBubbleTracerTexture": "particles/trails/Trail_Aura_Bubble.dds",
+            "ownNonPriorTracerTexture": "particles/trails/Trail_Aura_NonPrior_DPS.dds",
+            "ownPriorTracerTexture": "particles/trails/Trail_Aura_Prior_DPS.dds",
+            "ownTracerTexture": "particles/trails/Trail_Aura_DPS.dds",
+            "priorTracerTexture": "particles/trails/Trail_Aura_Prior_DPS.dds",
+            "shotDelay": 0.1,
+            "shotTravelTime": 1.0,
+            "timeUniversalsOff": 0.0,
+            "timeUniversalsOn": 0.0,
+            "tracerLength": 10.0,
+            "tracerOpacity": 1.0,
+            "tracerTexture": "particles/trails/Trail_Aura_DPS.dds",
+            "tracerThickness": 0.021,
+            "tracerVelocity": 50.0,
+            "type": "near",
+            "waterEffect": "particles/Empty_FX.xml"
+        },
+        "burstDuration": 2.0,
+        "burstTracerCountMultiplier": 3.0,
+        "burstTracerScatterMultiplier": 0.2,
+        "ownerlessTracesScatterCoefficient": 1.0,
+        "prioritySectorCooldown": 10.0,
+        "prioritySectorPhases": [
+            [
+                5.0,
+                "linear",
+                0.035,
+                1.0,
+                1.5
+            ],
+            [
+                5.0,
+                "linear",
+                0.0,
+                1.5,
+                1.5
+            ]
+        ],
+        "sectors": [
+            [
+                0.0,
+                180.0
+            ],
+            [
+                180.0,
+                0.0
+            ]
+        ]
+    },
+    "A_Artillery": {
+        "HP_GGM_1": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.4,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [
+                    "CM_SB_gk_1_1"
+                ],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PGPA113_150MM_HE_WEIMAR",
+                "PGPA114_150MM_AP_WEIMAR"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "1": 0.0,
+                "131105": 20.0,
+                "131171": 16.0,
+                "196707": 16.0,
+                "65568": 35.0,
+                "65569": 32.0,
+                "65571": 20.0,
+                "65635": 16.0,
+                "65636": 80.0
+            },
+            "barrelDiameter": 0.15,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+            "deadMesh": "content/gameplay/germany/gun/main/GGM029_149mm60_DrhTr_SK_C25/GGM029_149mm60_DrhTr_SK_C25_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -148.0,
+                148.0
+            ],
+            "id": 4264159024,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PGGM029",
+            "lensEffect": "particles/guns/GK_Lens_170to250.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 1.1,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/main/GGM029_149mm60_DrhTr_SK_C25/GGM029_149mm60_DrhTr_SK_C25.model",
+            "name": "PGGM029_149mm60_DrhTr_SK_C25",
+            "numBarrels": 3,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                1.0,
+                1.0
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                7.6,
+                8.0
+            ],
+            "shotDelay": 8.0,
+            "shotEffect": "particles/guns/GK_Shot_170to250.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                0.0,
+                40.0
+            ]
+        },
+        "HP_GGM_2": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.4,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [
+                    "CM_SB_gk_2_1"
+                ],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PGPA113_150MM_HE_WEIMAR",
+                "PGPA114_150MM_AP_WEIMAR"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "1": 0.0,
+                "131105": 20.0,
+                "131171": 16.0,
+                "196707": 16.0,
+                "65568": 35.0,
+                "65569": 32.0,
+                "65571": 20.0,
+                "65635": 16.0,
+                "65636": 80.0
+            },
+            "barrelDiameter": 0.15,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+            "deadMesh": "content/gameplay/germany/gun/main/GGM029_149mm60_DrhTr_SK_C25/GGM029_149mm60_DrhTr_SK_C25_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -144.0,
+                144.0
+            ],
+            "id": 4264159024,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PGGM029",
+            "lensEffect": "particles/guns/GK_Lens_170to250.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 1.1,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/main/GGM029_149mm60_DrhTr_SK_C25/GGM029_149mm60_DrhTr_SK_C25.model",
+            "name": "PGGM029_149mm60_DrhTr_SK_C25",
+            "numBarrels": 3,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                2.0,
+                1.0
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                7.6,
+                8.0
+            ],
+            "shotDelay": 8.0,
+            "shotEffect": "particles/guns/GK_Shot_170to250.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                0.0,
+                40.0
+            ]
+        },
+        "HP_GGM_3": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.4,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [
+                    "CM_SB_gk_3_1"
+                ],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PGPA113_150MM_HE_WEIMAR",
+                "PGPA114_150MM_AP_WEIMAR"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "1": 0.0,
+                "131105": 20.0,
+                "131171": 16.0,
+                "196707": 16.0,
+                "65568": 35.0,
+                "65569": 32.0,
+                "65571": 20.0,
+                "65635": 16.0,
+                "65636": 80.0
+            },
+            "barrelDiameter": 0.15,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+            "deadMesh": "content/gameplay/germany/gun/main/GGM029_149mm60_DrhTr_SK_C25/GGM029_149mm60_DrhTr_SK_C25_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -156.0,
+                156.0
+            ],
+            "id": 4264159024,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PGGM029",
+            "lensEffect": "particles/guns/GK_Lens_170to250.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 1.1,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/main/GGM029_149mm60_DrhTr_SK_C25/GGM029_149mm60_DrhTr_SK_C25.model",
+            "name": "PGGM029_149mm60_DrhTr_SK_C25",
+            "numBarrels": 3,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                4.0,
+                1.0
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                7.6,
+                8.0
+            ],
+            "shotDelay": 8.0,
+            "shotEffect": "particles/guns/GK_Shot_170to250.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                0.0,
+                40.0
+            ]
+        },
+        "HP_GGM_4": {
+            "HitLocationArtillery": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 0.4,
+                "autoRepairTime": 30,
+                "autoRepairTimeMin": 25,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.05,
+                    0.75
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.02
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "artillery_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 3750.0,
+                "moduleCritCoeffCR": 1.0,
+                "moduleCritCoeffXP": 1.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 1.0,
+                "rndPartHP": 0.0,
+                "splashBoxes": [
+                    "CM_SB_gk_4_1"
+                ],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 0.1
+            },
+            "aiMGmaxEllipseRanging": 4.0,
+            "aiMGmedEllipseRanging": 3.7,
+            "aiMGminEllipseRanging": 3.5,
+            "ammoList": [
+                "PGPA113_150MM_HE_WEIMAR",
+                "PGPA114_150MM_AP_WEIMAR"
+            ],
+            "antiAirAuraDistance": 0.0,
+            "antiAirAuraStrength": 0.0,
+            "armor": {
+                "1": 0.0,
+                "131105": 20.0,
+                "131171": 16.0,
+                "196707": 16.0,
+                "65568": 35.0,
+                "65569": 32.0,
+                "65571": 20.0,
+                "65635": 16.0,
+                "65636": 80.0
+            },
+            "barrelDiameter": 0.15,
+            "coeffPerSecondMin": 0.3,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_small.xml",
+            "deadMesh": "content/gameplay/germany/gun/main/GGM029_149mm60_DrhTr_SK_C25/GGM029_149mm60_DrhTr_SK_C25_dead.model",
+            "deadZone": [],
+            "delim": 0.5,
+            "effectIntensityModifier": 1.0,
+            "ellipseRangeMax": 250.0,
+            "ellipseRangeMin": 50.0,
+            "horizSector": [
+                -150.0,
+                150.0
+            ],
+            "id": 4264159024,
+            "idealDistance": 1000.0,
+            "idealRadius": 8,
+            "index": "PGGM029",
+            "lensEffect": "particles/guns/GK_Lens_170to250.xml",
+            "maxEllipseRanging": 1.003,
+            "medEllipseRanging": 1.002,
+            "minEllipseRanging": 1.001,
+            "minRadius": 1.1,
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/main/GGM029_149mm60_DrhTr_SK_C25/GGM029_149mm60_DrhTr_SK_C25.model",
+            "name": "PGGM029_149mm60_DrhTr_SK_C25",
+            "numBarrels": 3,
+            "onMoveTarPosCoeffDelim": 1.001,
+            "onMoveTarPosCoeffMaxDist": 1.002,
+            "onMoveTarPosCoeffZero": 1.0,
+            "onMoveTarPosDelim": 0.1,
+            "pitchDeadZones": [],
+            "position": [
+                5.0,
+                1.0
+            ],
+            "purgingEffect": "particles/guns/GK_Purging_50to170.xml",
+            "radiusOnDelim": 0.5,
+            "radiusOnMax": 0.6,
+            "radiusOnZero": 0.2,
+            "reduceTime": 0.1,
+            "reloadBoostEffect": "particles/guns/GK_Reload_170to250.xml",
+            "rotationSpeed": [
+                7.6,
+                8.0
+            ],
+            "shotDelay": 8.0,
+            "shotEffect": "particles/guns/GK_Shot_170to250.xml",
+            "smallGun": null,
+            "smokePenalty": 0.0001,
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Main",
+                "type": "Gun"
+            },
+            "vertSector": [
+                0.0,
+                40.0
+            ]
+        },
+        "ammoPool": {
+            "AP": 99999,
+            "CS": 99999,
+            "HE": 99999,
+            "axisLaser": 99999,
+            "chargeLaser": 99999,
+            "impulseLaser": 99999
+        },
+        "artificialOffset": 0,
+        "maxDist": 14000.0,
+        "minDistH": 50.0,
+        "minDistV": 110.0,
+        "normalDistribution": true,
+        "sigmaCount": 2.0,
+        "taperDist": 4000.0,
+        "targetTypeIgnore": [],
+        "targetWeightAllyAttacker": 1.0,
+        "targetWeightDist": 1.0,
+        "targetWeightHealth": 1.0,
+        "targetWeightIncoming": 10.0,
+        "targetWeightMaxDist": 2.0,
+        "targetWeightMaxHealth": 1.0,
+        "targetWeightMinDist": 10.0,
+        "targetWeightMinHealth": 5.0,
+        "targetWeightMyAttacker": 1.0,
+        "targetWeightOutcoming": 0.1,
+        "targetWeightType": 1.0,
+        "targetWeightTypeTable": {
+            "AirCarrier": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "Auxiliary": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "Battleship": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "Cruiser": [
+                4.0,
+                4.0,
+                4.0
+            ],
+            "Destroyer": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "Submarine": [
+                5.0,
+                5.0,
+                5.0
+            ]
+        },
+        "targetWeightYaw": 1.0
+    },
+    "A_Directors": {
+        "HP_GD_1": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4285723440,
+            "index": "PGD008",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD008_Zeilsaule_C38_Night_Dir/GD008_Zeilsaule_C38_Night_Dir.model",
+            "name": "PGD008_Zeilsaule_C38_Night_Dir",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_10": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4284674864,
+            "index": "PGD009",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD009_Target_Giver/GD009_Target_Giver.model",
+            "name": "PGD009_Target_Giver",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_11": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4284674864,
+            "index": "PGD009",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD009_Target_Giver/GD009_Target_Giver.model",
+            "name": "PGD009_Target_Giver",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_12": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4284674864,
+            "index": "PGD009",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD009_Target_Giver/GD009_Target_Giver.model",
+            "name": "PGD009_Target_Giver",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_13": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4285723440,
+            "index": "PGD008",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD008_Zeilsaule_C38_Night_Dir/GD008_Zeilsaule_C38_Night_Dir.model",
+            "name": "PGD008_Zeilsaule_C38_Night_Dir",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_14": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4285723440,
+            "index": "PGD008",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD008_Zeilsaule_C38_Night_Dir/GD008_Zeilsaule_C38_Night_Dir.model",
+            "name": "PGD008_Zeilsaule_C38_Night_Dir",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_2": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4285723440,
+            "index": "PGD008",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD008_Zeilsaule_C38_Night_Dir/GD008_Zeilsaule_C38_Night_Dir.model",
+            "name": "PGD008_Zeilsaule_C38_Night_Dir",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_3": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4284674864,
+            "index": "PGD009",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD009_Target_Giver/GD009_Target_Giver.model",
+            "name": "PGD009_Target_Giver",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_4": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4284674864,
+            "index": "PGD009",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD009_Target_Giver/GD009_Target_Giver.model",
+            "name": "PGD009_Target_Giver",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_5": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4284674864,
+            "index": "PGD009",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD009_Target_Giver/GD009_Target_Giver.model",
+            "name": "PGD009_Target_Giver",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_6": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4284674864,
+            "index": "PGD009",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD009_Target_Giver/GD009_Target_Giver.model",
+            "name": "PGD009_Target_Giver",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_7": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4285723440,
+            "index": "PGD008",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD008_Zeilsaule_C38_Night_Dir/GD008_Zeilsaule_C38_Night_Dir.model",
+            "name": "PGD008_Zeilsaule_C38_Night_Dir",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_8": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4285723440,
+            "index": "PGD008",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD008_Zeilsaule_C38_Night_Dir/GD008_Zeilsaule_C38_Night_Dir.model",
+            "name": "PGD008_Zeilsaule_C38_Night_Dir",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        },
+        "HP_GD_9": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4284674864,
+            "index": "PGD009",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/director/GD009_Target_Giver/GD009_Target_Giver.model",
+            "name": "PGD009_Target_Giver",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Director"
+            }
+        }
+    },
+    "A_Engine": {
+        "HitLocationEngine": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.2,
+            "autoRepairTime": 60,
+            "autoRepairTimeMin": 60,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.25,
+                0.1
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "engine_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 32000.0,
+            "moduleCritCoeffCR": 1.0,
+            "moduleCritCoeffXP": 1.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_engine1_1",
+                "CM_SB_engine1_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 10.0,
+            "volumeCoeff": 1.0
+        },
+        "backwardEngineForsag": 2.5,
+        "backwardEngineForsagMaxSpeed": 2.5,
+        "backwardEngineUpTime": 20.0,
+        "backwardSpeedOnFlood": -0.6,
+        "damagedEnginePowerMultiplier": -0.6,
+        "damagedEnginePowerTimeMultiplier": 5.5,
+        "engineType": "SteamTurbine",
+        "forwardEngineForsag": 2.5,
+        "forwardEngineForsagMaxSpeed": 2.5,
+        "forwardEngineUpTime": 40.0,
+        "forwardSpeedOnFlood": -0.3,
+        "histEnginePower": 80000.0,
+        "sound": "GameLogic.Engines.Battleship.Turbine.Type_1",
+        "speedCoef": 0.0
+    },
+    "A_Finders": {
+        "HP_GF_1": {
+            "customMiscs": {},
+            "gunNode": "HP_GGM_2",
+            "id": 4283624240,
+            "index": "PGF010",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF010_Rangefinder_6m/GF010_Rangefinder_6m.model",
+            "name": "PGF010_Rangefinder_6m",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_10": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4288867120,
+            "index": "PGF005",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF005_4m_Rangefinder_Type_SL_8/GF005_4m_Rangefinder_Type_SL_8.model",
+            "name": "PGF005_4m_Rangefinder_Type_SL_8",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_11": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4288867120,
+            "index": "PGF005",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF005_4m_Rangefinder_Type_SL_8/GF005_4m_Rangefinder_Type_SL_8.model",
+            "name": "PGF005_4m_Rangefinder_Type_SL_8",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_12": {
+            "customMiscs": {},
+            "gunNode": "HP_GGM_3",
+            "id": 4278381360,
+            "index": "PGF015",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF015_3m_Rangefinder_covered/GF015_3m_Rangefinder_covered.model",
+            "name": "PGF015_3m_Rangefinder_covered",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_13": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4273138480,
+            "index": "PGF020",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF020_BarrStaud_1942/GF020_BarrStaud_1942.model",
+            "name": "PGF020_BarrStaud_1942",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_14": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4273138480,
+            "index": "PGF020",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF020_BarrStaud_1942/GF020_BarrStaud_1942.model",
+            "name": "PGF020_BarrStaud_1942",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_15": {
+            "customMiscs": {},
+            "gunNode": "HP_GGM_3",
+            "id": 4283624240,
+            "index": "PGF010",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF010_Rangefinder_6m/GF010_Rangefinder_6m.model",
+            "name": "PGF010_Rangefinder_6m",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_2": {
+            "customMiscs": {},
+            "gunNode": "HP_GGM_2",
+            "id": 4278381360,
+            "index": "PGF015",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF015_3m_Rangefinder_covered/GF015_3m_Rangefinder_covered.model",
+            "name": "PGF015_3m_Rangefinder_covered",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_3": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4278381360,
+            "index": "PGF015",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF015_3m_Rangefinder_covered/GF015_3m_Rangefinder_covered.model",
+            "name": "PGF015_3m_Rangefinder_covered",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_4": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4278381360,
+            "index": "PGF015",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF015_3m_Rangefinder_covered/GF015_3m_Rangefinder_covered.model",
+            "name": "PGF015_3m_Rangefinder_covered",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_5": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4273138480,
+            "index": "PGF020",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF020_BarrStaud_1942/GF020_BarrStaud_1942.model",
+            "name": "PGF020_BarrStaud_1942",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_6": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4273138480,
+            "index": "PGF020",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF020_BarrStaud_1942/GF020_BarrStaud_1942.model",
+            "name": "PGF020_BarrStaud_1942",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_7": {
+            "customMiscs": {},
+            "gunNode": "HP_GGM_2",
+            "id": 4283624240,
+            "index": "PGF010",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF010_Rangefinder_6m/GF010_Rangefinder_6m.model",
+            "name": "PGF010_Rangefinder_6m",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_8": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4269992752,
+            "index": "PGF023",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF023_2m_Zeiss_Rangefinder/GF023_2m_Zeiss_Rangefinder.model",
+            "name": "PGF023_2m_Zeiss_Rangefinder",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        },
+        "HP_GF_9": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4269992752,
+            "index": "PGF023",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/finder/GF023_2m_Zeiss_Rangefinder/GF023_2m_Zeiss_Rangefinder.model",
+            "name": "PGF023_2m_Zeiss_Rangefinder",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": null,
+                "type": "Finder"
+            }
+        }
+    },
+    "A_FireControl": {
+        "maxDistCoef": 1.0,
+        "sigmaCountCoef": 1.0
+    },
+    "A_Hull": {
+        "Ammo_1": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.2,
+            "autoRepairTime": 40,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": true,
+            "coeffReloadDamaged": 1.0,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "guns": [],
+            "hitDetonationMaxProbAtDamage": [
+                0.1,
+                1.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.01,
+                0.3
+            ],
+            "hlType": "powdermagazine_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 16000.0,
+            "moduleCritCoeffCR": 1.0,
+            "moduleCritCoeffXP": 1.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_cit_ammo1_1",
+                "CM_SB_cit_ammo1_2",
+                "CM_SB_cit_ammo1_3"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 1.0
+        },
+        "Ammo_2": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.2,
+            "autoRepairTime": 40,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": true,
+            "coeffReloadDamaged": 1.0,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "guns": [],
+            "hitDetonationMaxProbAtDamage": [
+                0.1,
+                1.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.01,
+                0.3
+            ],
+            "hlType": "powdermagazine_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 16000.0,
+            "moduleCritCoeffCR": 1.0,
+            "moduleCritCoeffXP": 1.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_cit_ammo2_1",
+                "CM_SB_cit_ammo2_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 1.0
+        },
+        "Bow": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "simple_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1100.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_bow_1",
+                "CM_SB_bow_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 0.62,
+            "volumeCoeff": 0.165
+        },
+        "Cas": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "simple_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 6000.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_cas_1",
+                "CM_SB_cas_2",
+                "CM_SB_cas_3",
+                "CM_SB_cas_4"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 3.44,
+            "volumeCoeff": 0.165
+        },
+        "Cit": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "citadel_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 165500,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.1,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_cit_1",
+                "CM_SB_cit_2",
+                "CM_SB_cit_3"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 2.64,
+            "volumeCoeff": 1.0
+        },
+        "HP_GGM_1_HP_GGA_1": {
+            "capActive": true,
+            "model": ""
+        },
+        "HP_GGM_2_HP_GGA_1": {
+            "capActive": true,
+            "model": ""
+        },
+        "HP_GGM_3_HP_GGA_1": {
+            "capActive": true,
+            "model": ""
+        },
+        "HP_GGM_4_HP_GGA_1": {
+            "capActive": true,
+            "model": ""
+        },
+        "Hull": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "hull_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 24000.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 0.165
+        },
+        "SG": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 40,
+            "autoRepairTimeMin": 40,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.65,
+                0.25
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "steering_gear_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 9600.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": null,
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_ruder1_1",
+                "CM_SB_ruder1_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 1.0,
+            "volumeCoeff": 1.0
+        },
+        "SS": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "supersctructure_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 1700.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_ss_1_1",
+                "CM_SB_ss_1_2",
+                "CM_SB_ss_1_3",
+                "CM_SB_ss_1_4",
+                "CM_SB_ss_2_1",
+                "CM_SB_ss_2_2",
+                "CM_SB_ss_3_1",
+                "CM_SB_ss_3_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 0.97,
+            "volumeCoeff": 0.165
+        },
+        "St": {
+            "antiRamCoeff": 1.0,
+            "armorCoeff": 0.0,
+            "autoRepairTime": 10,
+            "autoRepairTimeMin": 5,
+            "buoyancyShipPercent": 0.0,
+            "burnNode": "",
+            "canBeDestroyed": false,
+            "critProb": [
+                0.0,
+                0.0
+            ],
+            "critProbHP": [
+                1.0,
+                0.0
+            ],
+            "damageEffects": [
+                [
+                    0.1,
+                    ""
+                ],
+                [
+                    0.3,
+                    ""
+                ],
+                [
+                    0.6,
+                    ""
+                ]
+            ],
+            "deathEffects": [
+                "/",
+                "/"
+            ],
+            "detonateEffect": "particles/vehicles/Battleship_death.xml",
+            "detonateOnDead": false,
+            "hitDetonationMaxProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hitDetonationMinProbAtDamage": [
+                0.0,
+                0.0
+            ],
+            "hlType": "simple_hitlocation",
+            "maxBuoyancy": 0.0,
+            "maxHP": 900.0,
+            "moduleCritCoeffCR": 0.0,
+            "moduleCritCoeffXP": 0.0,
+            "parentHL": "Hull",
+            "ramCoeff": 1.0,
+            "ramExtraDamage": 0.0,
+            "regeneratedHPPart": 0.5,
+            "rndPartHP": 0.0,
+            "splashBoxes": [
+                "CM_SB_stern_1",
+                "CM_SB_stern_2"
+            ],
+            "tbSkipProbMax": 0.0,
+            "tbSkipProbMin": 0.0,
+            "transmitHPDamageToParentFactor": 1.0,
+            "volume": 0.49,
+            "volumeCoeff": 0.165
+        },
+        "acidDamage": 0,
+        "acidDuration": 0,
+        "armor": {
+            "1": 0.0,
+            "131123": 80.0,
+            "131128": 80.0,
+            "131129": 30.0,
+            "131155": 51.0,
+            "131161": 0.0,
+            "131162": 0.0,
+            "131168": 80.0,
+            "131173": 0.0,
+            "131179": 40.0,
+            "131180": 30.0,
+            "131181": 20.0,
+            "196665": 0.0,
+            "196716": 100.0,
+            "262252": 20.0,
+            "65583": 30.0,
+            "65584": 16.0,
+            "65585": 16.0,
+            "65587": 0.0,
+            "65591": 25.0,
+            "65592": 25.0,
+            "65593": 25.0,
+            "65594": 25.0,
+            "65595": 80.0,
+            "65598": 30.0,
+            "65599": 20.0,
+            "65600": 30.0,
+            "65601": 80.0,
+            "65602": 30.0,
+            "65616": 51.0,
+            "65618": 30.0,
+            "65619": 51.0,
+            "65625": 10.0,
+            "65626": 10.0,
+            "65627": 51.0,
+            "65628": 30.0,
+            "65629": 16.0,
+            "65630": 16.0,
+            "65632": 0.0,
+            "65637": 16.0,
+            "65643": 50.0,
+            "65644": 150.0,
+            "65645": 25.0,
+            "65670": 80.0,
+            "65671": 80.0,
+            "65672": 80.0,
+            "65673": 80.0,
+            "65710": 0.0,
+            "65711": 0.0,
+            "65712": 0.0,
+            "65713": 0.0,
+            "65750": 40.0,
+            "65751": 40.0,
+            "65752": 40.0,
+            "65753": 40.0
+        },
+        "armourCas": [
+            -1,
+            -1
+        ],
+        "armourCit": [
+            -1,
+            -1
+        ],
+        "armourDeck": [
+            -1,
+            -1
+        ],
+        "armourExtremities": [
+            -1,
+            -1
+        ],
+        "backwardPowerCoef": 3.0,
+        "barbettes": {
+            "HP_GGM_1": [
+                65670,
+                65710,
+                65750
+            ],
+            "HP_GGM_2": [
+                65671,
+                65711,
+                65751
+            ],
+            "HP_GGM_3": [
+                65672,
+                65712,
+                65752
+            ],
+            "HP_GGM_4": [
+                65673,
+                65713,
+                65753
+            ]
+        },
+        "baseUnderwaterPitchAngle": 0.0,
+        "bodyType": "dynamic",
+        "boilerExplosionPostDeath": "particles/Empty_FX.xml",
+        "buoyancy": 200000,
+        "buoyancyEffects": [],
+        "buoyancyHighlightEffect": "particles/submarines/Sub_location.xml",
+        "buoyancyRudderDepths": [
+            0,
+            -8,
+            -16,
+            -24,
+            -32,
+            -40,
+            -48,
+            -56,
+            -64,
+            -72,
+            -80
+        ],
+        "buoyancyRudderResetTime": 1.0,
+        "buoyancyRudderTime": 1.0,
+        "buoyancyStates": {
+            "DEEP_WATER": [
+                [
+                    -34.0,
+                    -59.0
+                ],
+                0.63,
+                10.0
+            ],
+            "DEEP_WATER_INVUL": [
+                [
+                    -59.0,
+                    -80.0
+                ],
+                0.63,
+                10.0
+            ],
+            "PERISCOPE": [
+                [
+                    -4.0,
+                    -13.0
+                ],
+                0.63,
+                10.0
+            ],
+            "SEMI_DEEP_WATER": [
+                [
+                    -13.0,
+                    -34.0
+                ],
+                0.63,
+                10.0
+            ],
+            "SURFACE": [
+                [
+                    0.0,
+                    -4.0
+                ],
+                1.0,
+                1.0
+            ]
+        },
+        "buoyancyStopLine": 10.0,
+        "buoyancyStopLineMinSpeedCoeff": 0.35,
+        "burnNodes": [
+            [
+                0.7003,
+                0.3,
+                30.0
+            ],
+            [
+                0.7003,
+                0.3,
+                30.0
+            ],
+            [
+                0.7003,
+                0.3,
+                30.0
+            ],
+            [
+                0.7003,
+                0.3,
+                30.0
+            ]
+        ],
+        "canReceiveAcid": false,
+        "consumablePlaneTypes": {
+            "fighter": "PGAF003_BF109E",
+            "scout": "PGAS001_Ar196"
+        },
+        "coolingOffSpeed": 0.1,
+        "crackCoords": [
+            0.25,
+            0.0,
+            -0.25
+        ],
+        "customMiscs": {},
+        "deathBubblesEffect": "particles/NF_CC_seething_bubbles_post_death.xml",
+        "deathDetonateEffect": "particles/Empty_FX.xml",
+        "deathFaultEffect": "particles/Empty_FX.xml",
+        "deathFireEffect": "particles/Empty_FX.xml",
+        "deathFoamEffect": "particles/vehicles/Death_foam_medium.xml",
+        "deathFountainsEffect": "particles/NF_CC_water_fountains_post_death.xml",
+        "deathFumingEffect": "particles/NF_CC_fuming_at_flooding_post_death.xml",
+        "deathNodes": [
+            "HP_Ship_death_1",
+            "HP_Ship_death_2",
+            "HP_Ship_death_3"
+        ],
+        "deathPlaneEffect": "particles/NF_AA_death_catapult_ships.xml",
+        "deathPostFireEffect": "particles/NF_CC_fuming_post_fire.xml",
+        "deathSettings": "PCOS001_Default",
+        "deathShellEffect": "particles/Empty_FX.xml",
+        "deathTorpedoEffect": "particles/NF_death_torpedo.xml",
+        "deathUnderWaterBubblesEffects": [
+            "particles/submarines/Sub_bomb_trace.xml",
+            "particles/submarines/Sub_bomb_trace.xml"
+        ],
+        "deckHeight": 6.4,
+        "deepwaterVisionCoeff": {},
+        "deepwaterVisionToPlaneCoeff": {},
+        "defaultCamouflage": "",
+        "dockYOffset": -0.0235,
+        "draft": 11,
+        "effectCauldronExplosion": "particles/Empty_FX.xml",
+        "effectOnDeath": "particles/vehicles/Cruiser_death.xml",
+        "effectOnDetonatePowderChamber": "particles/simple_death.xml",
+        "effectOnFloodDeath": "particles/vehicles/Cruiser_death.xml",
+        "effectShipCracksAndOilPuddle": "particles/Empty_FX.xml",
+        "effects": {
+            "acid": [],
+            "death": [
+                [
+                    "HP_FX_Death_1",
+                    "particles/vehicles/Death_foam_medium.xml"
+                ],
+                [
+                    "HP_FX_Death_2",
+                    "particles/vehicles/Death_foam_medium.xml"
+                ],
+                [
+                    "HP_FX_Death_3",
+                    "particles/vehicles/Death_foam_medium.xml"
+                ]
+            ],
+            "fire1": [
+                [
+                    "HP_FX_Fire_1",
+                    "particles/vehicles/Fire_small.xml"
+                ]
+            ],
+            "fire2": [
+                [
+                    "HP_FX_Fire_2",
+                    "particles/vehicles/Fire_medium.xml"
+                ],
+                [
+                    "HP_FX_Fire_2_side_1",
+                    "particles/vehicles/Fire_side_medium.xml"
+                ],
+                [
+                    "HP_FX_Fire_2_side_2",
+                    "particles/vehicles/Fire_side_medium.xml"
+                ],
+                [
+                    "HP_FX_Fire_2_side_3",
+                    "particles/vehicles/Fire_side_medium.xml"
+                ]
+            ],
+            "fire3": [
+                [
+                    "HP_FX_Fire_3",
+                    "particles/vehicles/Fire_medium.xml"
+                ],
+                [
+                    "HP_FX_Fire_3_side_1",
+                    "particles/vehicles/Fire_side_medium.xml"
+                ],
+                [
+                    "HP_FX_Fire_3_side_2",
+                    "particles/vehicles/Fire_side_medium.xml"
+                ]
+            ],
+            "fire4": [
+                [
+                    "HP_FX_Fire_4",
+                    "particles/vehicles/Fire_small.xml"
+                ]
+            ],
+            "fireResistance": [],
+            "fixDeluge": [
+                [
+                    "HP_FX_Flood_water_left_0",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_left_1",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_left_2",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_left_3",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_0",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_1",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_2",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_3",
+                    "particles/vehicles/Flood_deluge_small.xml"
+                ]
+            ],
+            "fixLight": [
+                [
+                    "HP_FX_FloodLight_left_1",
+                    "particles/vehicles/FixLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_left_2",
+                    "particles/vehicles/FixLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_right_1",
+                    "particles/vehicles/FixLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_right_2",
+                    "particles/vehicles/FixLight_medium.xml"
+                ]
+            ],
+            "flood": [
+                [
+                    "HP_FX_Flood_steam_1",
+                    "particles/vehicles/Flood_steam_exhaust_big_delayed.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_1",
+                    "particles/vehicles/Flood_steam_medium.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_2",
+                    "particles/vehicles/Flood_steam_exhaust_big.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_2",
+                    "particles/vehicles/Flood_steam_medium.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_left",
+                    "particles/vehicles/Flood_steam_side_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_steam_right",
+                    "particles/vehicles/Flood_steam_side_small.xml"
+                ]
+            ],
+            "floodLight": [
+                [
+                    "HP_FX_FloodLight_left_1",
+                    "particles/vehicles/FloodLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_left_2",
+                    "particles/vehicles/FloodLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_right_1",
+                    "particles/vehicles/FloodLight_medium.xml"
+                ],
+                [
+                    "HP_FX_FloodLight_right_2",
+                    "particles/vehicles/FloodLight_medium.xml"
+                ]
+            ],
+            "horn": [
+                [
+                    "HP_FX_Smoke_1",
+                    "particles/vehicles/Horn.xml"
+                ],
+                [
+                    "HP_FX_Smoke_2",
+                    "particles/vehicles/Horn.xml"
+                ]
+            ],
+            "idlePort": [
+                [
+                    "HP_FX_Flood_water_left_0",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_left_1",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_left_2",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_left_3",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_0",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_1",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_2",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Flood_water_right_3",
+                    "particles/vehicles/idlePort_Flood_deluge_small.xml"
+                ],
+                [
+                    "HP_FX_Smoke_1",
+                    "particles/vehicles/idlePort_RunSmoke_medium.xml"
+                ],
+                [
+                    "HP_FX_Smoke_2",
+                    "particles/vehicles/idlePort_RunSmoke_medium.xml"
+                ]
+            ],
+            "repairLight": [],
+            "smoke": [
+                [
+                    "HP_FX_Smoke_1",
+                    "particles/vehicles/RunSmoke_medium.xml"
+                ],
+                [
+                    "HP_FX_Smoke_2",
+                    "particles/vehicles/RunSmoke_medium.xml"
+                ]
+            ],
+            "waketraceback": [
+                [
+                    "HP_FX_WakeTraceBack",
+                    "particles/vehicles/WakeTraceReverce_back_wide_1.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_1",
+                    "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_2",
+                    "particles/vehicles/WakeTraceReverce_screw_small_2.xml"
+                ]
+            ],
+            "waketracefront": [
+                [
+                    "HP_FX_WakeTrace",
+                    "particles/vehicles/WakeTraceForward_front.xml"
+                ],
+                [
+                    "HP_FX_WakeTraceBack",
+                    "particles/vehicles/WakeTraceForward_back.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_1",
+                    "particles/vehicles/WakeTraceForward_screw_left_side.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_2",
+                    "particles/vehicles/WakeTraceForward_screw_right_side.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_1",
+                    "particles/vehicles/WakeTrace_screw_small_2.xml"
+                ],
+                [
+                    "HP_FX_WakeTrace_screw_2",
+                    "particles/vehicles/WakeTrace_screw_small_2.xml"
+                ]
+            ]
+        },
+        "enemyEngineEffects": false,
+        "enemyVisibilityCoeffByDepth": {
+            "-44.0": 1.0,
+            "0.0": 1.0
+        },
+        "enginePower": 80000.0,
+        "finderBase": 6.0,
+        "finderHeight": 31.0,
+        "flagPoleModelName": "content/gameplay/common/misc/CM500/CM500.model",
+        "floodNodes": [
+            [
+                0.3,
+                0.25,
+                40.0
+            ],
+            [
+                0.3,
+                0.25,
+                40.0
+            ]
+        ],
+        "foghornEffect": "particles/Hooter.xml",
+        "health": 32000.0,
+        "heatChangeValue": 1,
+        "heightIntensityEffects": [],
+        "isBlind": false,
+        "isFakeSubmarine": false,
+        "mass": 11482000.0,
+        "maxBuoyancyLevel": 0.0,
+        "maxBuoyancySpeed": 0.0,
+        "maxHeatValue": 100.0,
+        "maxRudderAngle": 30.0,
+        "maxSpeed": 31.0,
+        "model": "content/gameplay/germany/ship/cruiser/GSC034_Weimar_1936/GSC034_Weimar_1936.model",
+        "numOfParts": 0,
+        "propellerEffect": "",
+        "propellerEffectReversed": "",
+        "pushingMaxRudderAngle": 16.0,
+        "pushingMinRudderAngle": 1.0,
+        "regenerationHPSpeed": 0.0,
+        "repairingCoeff": 0.0,
+        "rollEffect": 17.0,
+        "rudderPower": 50000000.0,
+        "rudderTime": 11.44,
+        "shipBodySunkDifferenceCoeff": 2.0,
+        "shipBodySunkStartMassCoeff": 1.0,
+        "shipPartSunkDifferenceCoeff": 2.2,
+        "shipPartSunkStartMassCoeff": 2.2,
+        "shipWheelsPresent": false,
+        "sideDragCoef": 320000.0,
+        "sinkStartTime": [
+            [
+                4.0,
+                10.0
+            ],
+            [
+                2.0,
+                4.0
+            ],
+            [
+                3.0,
+                3.0
+            ],
+            [
+                4.0,
+                1.0
+            ]
+        ],
+        "sinkTime": [
+            [
+                45.0,
+                130.0
+            ],
+            [
+                18.0,
+                30.0
+            ],
+            [
+                21.0,
+                27.0
+            ],
+            [
+                27.0,
+                15.0
+            ]
+        ],
+        "sinkingEffects": "PCXS006_Cruiser",
+        "size": [
+            176.0,
+            18.8,
+            31.9
+        ],
+        "smokeScanRadius": 27.0,
+        "speedCoef": 1.0,
+        "timeBeforeCauldronExplosion": 4.0,
+        "timeBeforeDeathEffect": 0.2,
+        "tonnage": 11482.0,
+        "torpedoImpactMassImpulseCoeff": 0.5,
+        "turningRadius": 650.0,
+        "underwaterMaxRudderAngle": 0.0,
+        "underwaterRollEffect": 0.0,
+        "unpeculiarCamouflage": "",
+        "unpeculiarCamouflageColorSchemeId": 0,
+        "visibilityCoefATBA": 1e-06,
+        "visibilityCoefATBAByPlane": 1e-06,
+        "visibilityCoefFire": 2.0,
+        "visibilityCoefFireByPlane": 3.0,
+        "visibilityCoefGK": 1e-06,
+        "visibilityCoefGKByPlane": 3.0,
+        "visibilityCoefGKInSmoke": 6.56,
+        "visibilityCoefPinger": {
+            "0.0": 0.0
+        },
+        "visibilityCoefPingerByPlane": {
+            "0.0": 0.0
+        },
+        "visibilityCoefPingerInSmoke": 1e-06,
+        "visibilityCoeff": 19.2,
+        "visibilityCoeffUnderwaterDepths": {
+            "0.0": 1.0
+        },
+        "visibilityCoeffUnderwaterDepthsByPlane": {
+            "0.0": 1.0
+        },
+        "visibilityFactor": 13.16,
+        "visibilityFactorByPlane": 5.64,
+        "visibilityFactorInSmoke": 1e-06,
+        "visibilityFactorsBySubmarine": {
+            "DEEP_WATER": 2.0,
+            "DEEP_WATER_INVUL": 0.0,
+            "PERISCOPE": 5.64,
+            "SEMI_DEEP_WATER": 2.0,
+            "SURFACE": 0.0
+        }
+    },
+    "A_Radars": {
+        "HP_GRS_1": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4274436912,
+            "index": "PGRS019",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/radar/search/GRS019_FuMO25/GRS019_FuMO25.model",
+            "name": "PGRS019_FuMO25",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Search",
+                "type": "Radar"
+            }
+        },
+        "HP_GRS_2": {
+            "customMiscs": {},
+            "gunNode": "",
+            "id": 4272339760,
+            "index": "PGRS021",
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/radar/search/GRS021_FuMO63/GRS021_FuMO63.model",
+            "name": "PGRS021_FuMO63",
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Search",
+                "type": "Radar"
+            }
+        }
+    },
+    "A_Torpedoes": {
+        "HP_GGT_1": {
+            "HitLocationTorpedo": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 15,
+                "autoRepairTimeMin": 15,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.25,
+                    0.25
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "torpedo_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "ammoList": [
+                "PGPT038_G7A_WEIMAR"
+            ],
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.533,
+            "canRotate": true,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/germany/gun/torpedo/GGT015_533mm_Torpedo_Tubes_Triple/GGT015_533mm_Torpedo_Tubes_Triple_dead.model",
+            "deadZone": [
+                [
+                    -25.0,
+                    0.0
+                ]
+            ],
+            "horizSector": [
+                -150.0,
+                0.0
+            ],
+            "id": 4278609712,
+            "index": "PGGT015",
+            "lensEffect": "",
+            "mainSector": [
+                -90.0,
+                90.0
+            ],
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/torpedo/GGT015_533mm_Torpedo_Tubes_Triple/GGT015_533mm_Torpedo_Tubes_Triple.model",
+            "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
+            "numAmmos": 1000,
+            "numBarrels": 3,
+            "position": [
+                2.0,
+                2.0
+            ],
+            "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+            "rotationSpeed": [
+                25.0,
+                25.0
+            ],
+            "shootSector": [
+                0.0,
+                0.0
+            ],
+            "shotDelay": 68.0,
+            "shotEffect": "particles/guns/torpedo.xml",
+            "shotEffectCap": "particles/Empty_FX.xml",
+            "smallGun": null,
+            "timeBetweenShots": 0.2,
+            "timeToChangeAngle": 1,
+            "timeToChangeSpeed": 1,
+            "torpedoAngles": [
+                3.6,
+                12.0
+            ],
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Torpedo",
+                "type": "Gun"
+            },
+            "vertSector": [
+                0.0,
+                1.0
+            ]
+        },
+        "HP_GGT_2": {
+            "HitLocationTorpedo": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 15,
+                "autoRepairTimeMin": 15,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.25,
+                    0.25
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "torpedo_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "ammoList": [
+                "PGPT038_G7A_WEIMAR"
+            ],
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.533,
+            "canRotate": true,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/germany/gun/torpedo/GGT015_533mm_Torpedo_Tubes_Triple/GGT015_533mm_Torpedo_Tubes_Triple_dead.model",
+            "deadZone": [
+                [
+                    0.0,
+                    25.0
+                ]
+            ],
+            "horizSector": [
+                0.0,
+                150.0
+            ],
+            "id": 4278609712,
+            "index": "PGGT015",
+            "lensEffect": "",
+            "mainSector": [
+                -90.0,
+                90.0
+            ],
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/torpedo/GGT015_533mm_Torpedo_Tubes_Triple/GGT015_533mm_Torpedo_Tubes_Triple.model",
+            "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
+            "numAmmos": 1000,
+            "numBarrels": 3,
+            "position": [
+                2.0,
+                0.0
+            ],
+            "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+            "rotationSpeed": [
+                25.0,
+                25.0
+            ],
+            "shootSector": [
+                0.0,
+                0.0
+            ],
+            "shotDelay": 68.0,
+            "shotEffect": "particles/guns/torpedo.xml",
+            "shotEffectCap": "particles/Empty_FX.xml",
+            "smallGun": null,
+            "timeBetweenShots": 0.2,
+            "timeToChangeAngle": 1,
+            "timeToChangeSpeed": 1,
+            "torpedoAngles": [
+                3.6,
+                12.0
+            ],
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Torpedo",
+                "type": "Gun"
+            },
+            "vertSector": [
+                0.0,
+                1.0
+            ]
+        },
+        "HP_GGT_3": {
+            "HitLocationTorpedo": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 15,
+                "autoRepairTimeMin": 15,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.25,
+                    0.25
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "torpedo_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "ammoList": [
+                "PGPT038_G7A_WEIMAR"
+            ],
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.533,
+            "canRotate": true,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/germany/gun/torpedo/GGT015_533mm_Torpedo_Tubes_Triple/GGT015_533mm_Torpedo_Tubes_Triple_dead.model",
+            "deadZone": [
+                [
+                    -26.0,
+                    0.0
+                ]
+            ],
+            "horizSector": [
+                -155.0,
+                0.0
+            ],
+            "id": 4278609712,
+            "index": "PGGT015",
+            "lensEffect": "",
+            "mainSector": [
+                -90.0,
+                90.0
+            ],
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/torpedo/GGT015_533mm_Torpedo_Tubes_Triple/GGT015_533mm_Torpedo_Tubes_Triple.model",
+            "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
+            "numAmmos": 1000,
+            "numBarrels": 3,
+            "position": [
+                3.0,
+                2.0
+            ],
+            "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+            "rotationSpeed": [
+                25.0,
+                25.0
+            ],
+            "shootSector": [
+                0.0,
+                0.0
+            ],
+            "shotDelay": 68.0,
+            "shotEffect": "particles/guns/torpedo.xml",
+            "shotEffectCap": "particles/Empty_FX.xml",
+            "smallGun": null,
+            "timeBetweenShots": 0.2,
+            "timeToChangeAngle": 1,
+            "timeToChangeSpeed": 1,
+            "torpedoAngles": [
+                3.6,
+                12.0
+            ],
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Torpedo",
+                "type": "Gun"
+            },
+            "vertSector": [
+                0.0,
+                1.0
+            ]
+        },
+        "HP_GGT_4": {
+            "HitLocationTorpedo": {
+                "antiRamCoeff": 1.0,
+                "armorCoeff": 1.0,
+                "autoRepairTime": 15,
+                "autoRepairTimeMin": 15,
+                "buoyancyShipPercent": 0.0,
+                "burnNode": "",
+                "canBeDestroyed": true,
+                "critProb": [
+                    0.25,
+                    0.25
+                ],
+                "critProbHP": [
+                    1.0,
+                    0.0
+                ],
+                "damageEffects": [],
+                "deathEffects": [
+                    "/",
+                    "/"
+                ],
+                "detonateEffect": "particles/vehicles/Battleship_death.xml",
+                "detonateOnDead": false,
+                "hitDetonationMaxProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hitDetonationMinProbAtDamage": [
+                    0.0,
+                    0.0
+                ],
+                "hlType": "torpedo_hitlocation",
+                "maxBuoyancy": 0.0,
+                "maxHP": 1200.0,
+                "moduleCritCoeffCR": 0.0,
+                "moduleCritCoeffXP": 0.0,
+                "parentHL": null,
+                "ramCoeff": 1.0,
+                "ramExtraDamage": 0.0,
+                "regeneratedHPPart": 0.5,
+                "rndPartHP": 0.75,
+                "splashBoxes": [],
+                "tbSkipProbMax": 0.0,
+                "tbSkipProbMin": 0.0,
+                "transmitHPDamageToParentFactor": 1.0,
+                "volume": 0.5,
+                "volumeCoeff": 1.0
+            },
+            "ammoList": [
+                "PGPT038_G7A_WEIMAR"
+            ],
+            "armor": {
+                "65580": 6.0
+            },
+            "barrelDiameter": 0.533,
+            "canRotate": true,
+            "customMiscs": {},
+            "damagedEffect": "particles/guns/Gun_Broken_vvsmall.xml",
+            "deadMesh": "content/gameplay/germany/gun/torpedo/GGT015_533mm_Torpedo_Tubes_Triple/GGT015_533mm_Torpedo_Tubes_Triple_dead.model",
+            "deadZone": [
+                [
+                    0.0,
+                    26.0
+                ]
+            ],
+            "horizSector": [
+                0.0,
+                155.0
+            ],
+            "id": 4278609712,
+            "index": "PGGT015",
+            "lensEffect": "",
+            "mainSector": [
+                -90.0,
+                90.0
+            ],
+            "miscFilter": [],
+            "miscFilterMode": false,
+            "model": "content/gameplay/germany/gun/torpedo/GGT015_533mm_Torpedo_Tubes_Triple/GGT015_533mm_Torpedo_Tubes_Triple.model",
+            "name": "PGGT015_533mm_Torpedo_Tubes_Triple",
+            "numAmmos": 1000,
+            "numBarrels": 3,
+            "position": [
+                3.0,
+                0.0
+            ],
+            "reloadBoostEffect": "particles/guns/Torpedo_Reload.xml",
+            "rotationSpeed": [
+                25.0,
+                25.0
+            ],
+            "shootSector": [
+                0.0,
+                0.0
+            ],
+            "shotDelay": 68.0,
+            "shotEffect": "particles/guns/torpedo.xml",
+            "shotEffectCap": "particles/Empty_FX.xml",
+            "smallGun": null,
+            "timeBetweenShots": 0.2,
+            "timeToChangeAngle": 1,
+            "timeToChangeSpeed": 1,
+            "torpedoAngles": [
+                3.6,
+                12.0
+            ],
+            "typeinfo": {
+                "nation": "Germany",
+                "species": "Torpedo",
+                "type": "Gun"
+            },
+            "vertSector": [
+                0.0,
+                1.0
+            ]
+        },
+        "timeToChangeAmmo": 10.0,
+        "useGroups": false,
+        "useOneShot": false
+    },
+    "BattleUpgradeInfo": {},
+    "ShipAbilities": {
+        "AbilitySlot0": {
+            "abils": [
+                [
+                    "PCY009_CrashCrewPremium",
+                    "CV_CA_CL_Gold"
+                ]
+            ],
+            "slot": 0
+        },
+        "AbilitySlot1": {
+            "abils": [
+                [
+                    "PCY016_SonarSearchPremium",
+                    "Deutsche_C_4_7"
+                ],
+                [
+                    "PCY011_AirDefenseDispPremium",
+                    "Default_Gold"
+                ]
+            ],
+            "slot": 1
+        },
+        "AbilitySlot2": {
+            "abils": [
+                [
+                    "PCY015_SpeedBoosterPremium",
+                    "FR_CR_6_7_PREM"
+                ]
+            ],
+            "slot": 2
+        },
+        "AbilitySlot3": {
+            "abils": [
+                [
+                    "PCY013_SpotterPremium",
+                    "Weimar"
+                ],
+                [
+                    "PCY012_FighterPremium",
+                    "Fighter_3"
+                ]
+            ],
+            "slot": 3
+        },
+        "AbilitySlot4": {
+            "abils": [],
+            "slot": 4
+        }
+    },
+    "ShipUpgradeInfo": {
+        "PGUA607_ART_WEIMAR": {
+            "canBuy": true,
+            "components": {
+                "artillery": [
+                    "A_Artillery"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Artillery"
+        },
+        "PGUE607_ENG_WEIMAR": {
+            "canBuy": true,
+            "components": {
+                "engine": [
+                    "A_Engine"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Engine"
+        },
+        "PGUH613_WEIMAR": {
+            "canBuy": true,
+            "components": {
+                "airArmament": [
+                    "A_AirArmament"
+                ],
+                "airDefense": [
+                    "A_AirDefense"
+                ],
+                "airSupport": [
+                    "AB_AirSupport"
+                ],
+                "artillery": [
+                    "A_Artillery"
+                ],
+                "atba": [
+                    "A_ATBA"
+                ],
+                "depthCharges": [],
+                "directors": [
+                    "A_Directors"
+                ],
+                "finders": [
+                    "A_Finders"
+                ],
+                "hull": [
+                    "A_Hull"
+                ],
+                "pinger": [],
+                "radars": [
+                    "A_Radars"
+                ],
+                "torpedoes": [
+                    "A_Torpedoes"
+                ]
+            },
+            "disabledAbilities": [],
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Hull"
+        },
+        "PGUS610_SUO_WEIMAR": {
+            "canBuy": true,
+            "components": {
+                "fireControl": [
+                    "A_FireControl"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Suo"
+        },
+        "PGUT609_TORP_WEIMAR": {
+            "canBuy": true,
+            "components": {
+                "torpedoes": [
+                    "A_Torpedoes"
+                ]
+            },
+            "nextShips": [],
+            "prev": "",
+            "ucType": "_Torpedoes"
+        },
+        "costCR": 0,
+        "costGold": 8500,
+        "costSaleGold": 0,
+        "costXP": 0,
+        "lockedConfig": [],
+        "value": 1
+    },
+    "Specials": {
+        "buffsShiftMaxLevel": 0,
+        "buffsShiftSpeed": 1.0,
+        "buffsStartPool": 0,
+        "modifiers": {}
+    },
+    "UnderwaterCamera": {
+        "cameraDragOff": 1000,
+        "cameraDragOffTime": 5,
+        "cameraDragOnTime": 5,
+        "castZoom": {},
+        "maxZoomLength": 5.0,
+        "shipHeigthCoeff": 3.0,
+        "shipLengthCoeff": 1.0,
+        "shipWidthCoeff": 3.0,
+        "zoomDragCoefficient": 0.85
+    },
+    "alternateFlags": [],
+    "apDamageLimitCoeff": 0,
+    "battleSignalsModifiersOrder": [],
+    "battleSignalsOrder": [],
+    "canEquipCamouflage": true,
+    "custom": {},
+    "defaultCrew": null,
+    "effects": {},
+    "flagsScale": 0.7,
+    "group": "special",
+    "id": 3752769328,
+    "index": "PGSC517",
+    "isPaperShip": true,
+    "level": 7,
+    "maxEquippedFlags": 8,
+    "name": "PGSC517_Weimar",
+    "nationFlagScale": 1.7,
+    "nativePermoflage": "PCEP107_Permo_Prem_High_lvl",
+    "navalFlag": "germany",
+    "needShowProjectYear": true,
+    "peculiarity": "default",
+    "peculiarityEffects": {},
+    "peculiarityFlag": "",
+    "peculiarityModels": {},
+    "permoflages": [
+        "PCEP107_Permo_Prem_High_lvl",
+        "PGEP448_Weimar_Hist"
+    ],
+    "steerAngle": [
+        0.2,
+        0.7,
+        1.0
+    ],
+    "steerDist": null,
+    "subnation": "",
+    "tags": [],
+    "typeinfo": {
+        "nation": "Germany",
+        "species": "Cruiser",
+        "type": "Ship"
+    },
+    "unpeculiarShip": ""
+}

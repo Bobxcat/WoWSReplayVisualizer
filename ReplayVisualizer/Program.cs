@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using ReplayVisualizer.Video;
 
 namespace ReplayVisualizer
 {
@@ -118,16 +119,16 @@ namespace ReplayVisualizer
                     bool disappearing = p.Value<bool>("disappearing");
                     float heading = p.Value<float>("heading");
                     Point2 position = new Point2(p.Value<double>("x"), p.Value<double>("y"));
-                    bool omitPos = position.x > 1.1 || position.x < -0.1 || position.y > 1.1 || position.y < -0.1;
-                    //bool omitPos = disappearing;
+                    bool omitPos = disappearing;
 
-                    if (omitPos)
-                    {
-                        Console.WriteLine($"{position} at t={clock}s or t={Utils.SecondsToGameTime(clock)}");
-
-                    }
                     if (Program.shipList.TryGetValue(id, out Ship s))
                     {
+                        //Scale position from [-.1, 1.1] to [0, 1]
+                        //[-.1, 1.1] -> [-.6, .6] -> [-.5, .5] -> [0, 1]
+                        position.x = (position.x - 0.5) * (1.0 / 1.1) + 0.5;
+                        position.y = (position.y - 0.5) * (1.0 / 1.1) + 0.5;
+                        //...
+
                         s.visibilities.Add(new TimeMarker<bool>(!disappearing, clock));
                         if (!omitPos)
                         {
@@ -135,18 +136,37 @@ namespace ReplayVisualizer
                             s.headings.Add(new TimeMarker<float>(heading, clock));
                         }
                     }
-                    //Ship population is handled in OnArenaStateReceived
-                    /*else
+                }
+            }
+            else if ("EntityMethod" == payload.Item1)
+            {
+                JObject pld = (JObject)payload.Item2;
+                string method = pld.Value<string>("method");
+                if ("receiveArtilleryShots" == method)
+                {
+                    //Data structure: "args":[[{"shots":[{...}, {...}, {...}...]}]]
+                    JToken[] args = pld.Value<JArray>("args").ToArray()[0].Value<JArray>().ToArray();
+                    JToken[] shots = args[0].Value<JArray>("shots").ToArray();
+                    //JToken[] shots = pld.Value<JArray>("shots").ToArray();
+                    for (int i = 0; i < shots.Length; i++)
                     {
-                        s = new Ship()
+                        Point2 startPos;
+                        Point2 endPos;
                         {
-                            ID = id
-                        };
-                        s.visibilities.Add(new TimeMarker<bool>(!disappearing, clock));
-                        if (!omitPos)
-                            s.positions.Add(new TimeMarker<Point2>(position, clock));
-                        Program.shipList.Add(id, s);
-                    }*/
+                            //double[] startPosRaw = shots[i].Value<double[]>("pos");
+                            //double[] endPosRaw = shots[i].Value<double[]>("tarPos");
+                            double[] startPosRaw = shots[i].Value<JArray>("pos").ToArray().Values<double>().ToArray();
+                            double[] endPosRaw = shots[i].Value<JArray>("tarPos").ToArray().Values<double>().ToArray();
+
+                            startPos = new Point2(startPosRaw[0], startPosRaw[2]);
+                            endPos = new Point2(endPosRaw[0], endPosRaw[2]);
+                            //JToken[] startPosRaw = shots[i].Value<JArray>("pos").ToArray();
+                            //JToken[] endPosRaw = shots[i].Value<JArray>("tarPos").ToArray();
+                        }
+                        Shot s = new Shot(startPos, endPos, shots[i].Value<double>("speed"), shots[i].Value<double>("hitDistance"), clock);
+                        //Console.WriteLine(s);
+                        Program.shotList.Add(s);
+                    }
                 }
             }
             else if ("DamageReceived" == payload.Item1)
@@ -223,9 +243,6 @@ namespace ReplayVisualizer
                         maxHealth = players[i].Value<int>("health")
                     };
                     s.healths.Add(new TimeMarker<int>(s.maxHealth, -1.0));
-                    
-                    //If the ship is friendly, set to be immediately spotted. Otherwise, set to be immediately invisible
-                    s.visibilities.Add(new TimeMarker<bool>(s.team == 0, -1.0));
 
                     Program.shipList.Add(s.ID, s);
                 }
@@ -234,10 +251,6 @@ namespace ReplayVisualizer
             {
                 string pld = (string)payload.Item2;//This pld is just the version string
             }
-            else
-            {
-                //Console.WriteLine($"Payload type not found: {payload.Item1}");
-            }
         }
     }
     class MetaData
@@ -245,6 +258,7 @@ namespace ReplayVisualizer
         public double replayLength;
         public double clockTimeToGameTimeOffset;
         public int mainPlayerID;
+        public Ship mainPlayer;
         public string mapName;
 
         public MetaData()
@@ -263,18 +277,14 @@ namespace ReplayVisualizer
 
             JToken[] ships = data.Value<JArray>("vehicles").ToArray();
 
-            //Find the main player and set mainPlayerID
             for (int i = 0; i < ships.Length; i++)
             {
                 //Get the ship with relation=0, which will be the main player
-                Ship.Relation relation = (Ship.Relation)ships[i].Value<int>("relation");
-                if (relation != Ship.Relation.self)
-                    continue;
-
                 string name = ships[i].Value<string>("name");
+                Ship.Relation relation = (Ship.Relation)ships[i].Value<int>("relation");
 
                 Ship s = null;
-                //Find the matching ship by username, since ID is unavailable
+                //Find the ID of the ship from its username
                 foreach (Ship ship in Program.shipList.Values)
                 {
                     if (ship.username == name)
@@ -283,22 +293,41 @@ namespace ReplayVisualizer
                         break;
                     }
                 }
-                if (s != null)
+                if (s == null)
                 {
-                    mainPlayerID = s.ID;
-                    Console.WriteLine($"s.username");
-                    break;
+                    Console.WriteLine($"{name} not found in metadata");
+                    continue;
                 }
 
+                s.relation = relation;
+                s.vehicleID = ships[i].Value<long>("shipId");
+
+                //Populate Ship from matching ShipParam
+                if (ShipParams.shipParams.TryGetValue(s.vehicleID, out ShipParam sp))
+                {
+                    s.shipType = sp.shipType;
+                }
+
+                //Find the main player and set mainPlayerID
+                if (relation == Ship.Relation.self)
+                {
+                    mainPlayerID = s.ID;
+                    mainPlayer = s;
+                    Console.WriteLine($"Main player username: {s.username}");
+                }
             }
         }
     }
     class Program
     {
         /// <summary>
-        /// A list of all ships
+        /// A list of all ships. Key value is the ship's ID
         /// </summary>
         public static SortedList<int, Ship> shipList;
+        /// <summary>
+        /// A list of all shots made in the game
+        /// </summary>
+        public static List<Shot> shotList;
         public static MetaData meta;
 
         /// <summary>
@@ -307,13 +336,14 @@ namespace ReplayVisualizer
         /// <param name="filePath">The file path of the parsed file, relative to the program executable</param>
         static void ProcessFile(string filePath)
         {
+            //First, initialize the shipParams
+            ShipParams.Init();
+
             //Read file text
             string fileStr = System.IO.File.ReadAllText(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filePath));
 
             //And get all the lines
             string[] fileLines = fileStr.Split(Environment.NewLine.ToCharArray());
-
-            Console.WriteLine($"Length: {fileLines.Length}\n{fileLines[5]}\n\n{fileLines[6]}");
 
             //Now, turn all the fileLine strings into ReplayLine objects and populate the replayLines array
             //The first line is for metadata and the last line is empty, so reduce count by 2
@@ -337,20 +367,21 @@ namespace ReplayVisualizer
                 }
                 rl.Process();
             }
-            Console.WriteLine(Program.meta.clockTimeToGameTimeOffset);
+
+            shotList.Sort(new ShotComparer());
 
             //Second to last line, the final line is strange and has clock=0.0
             meta.replayLength = replayLines[replayLines.Length - 2].clock;
 
             meta.SetFromFirstLine(fileLines[0]);
-            Console.WriteLine(meta.mainPlayerID);
         }
 
         static void Main(string[] args)
         {
             shipList = new SortedList<int, Ship>();
+            shotList = new List<Shot>();
 
-            string filePath = "seattle.jl";
+            string filePath = args.Length > 0 ? args[0]: "in.jl";
             ProcessFile(filePath);
 
             foreach (Ship s in shipList.Values)
@@ -358,31 +389,10 @@ namespace ReplayVisualizer
                 s.PreRenderSetup();
             }
 
-            Point2 maxValues = new Point2();
-            //Debug
-            foreach (Ship s in shipList.Values)
-            {
-                foreach (TimeMarker<Point2> marker in s.positions)
-                {
-                    Point2 p = marker.value;
-                    double x = Math.Abs(p.x);
-                    double y = Math.Abs(p.y);
-                    if (x > maxValues.x)
-                        maxValues.x = x;
-                    if (y > maxValues.y)
-                        maxValues.y = y;
-                }
-            }
-            //...
-
-            Console.WriteLine(maxValues);
-            Console.ReadLine();
+            //shipList.Values.Log();
 
             Render.Init();
             Render.RenderVideo("out.mkv", Accord.Video.FFMPEG.VideoCodec.FFV1, 900, 60.0, 10.0);
-
-            Console.Write(Environment.NewLine + "Operation Complete. Press 'enter' to exit");
-            Console.ReadLine();
         }
     }
 
@@ -420,5 +430,7 @@ namespace ReplayVisualizer
         }
 
         public static bool IsEven(uint n) => (n & 1u) == 0;
+
+        public static long CurrentTimeMilliseconds() => DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
     }
 }

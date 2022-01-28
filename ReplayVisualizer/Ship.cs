@@ -16,7 +16,8 @@ namespace ReplayVisualizer
             this.y = y;
         }
 
-        //Maybe non-static would be good too?
+        public System.Drawing.PointF ToPointF() => new System.Drawing.PointF((float)x, (float)y);
+
         public static Point2 Lerp(Point2 start, Point2 end, double l) => (1.0 - l) * start + l * end;
 
         public static Point2 operator +(Point2 a, Point2 b) => new Point2(a.x + b.x, a.y + b.y);
@@ -33,7 +34,7 @@ namespace ReplayVisualizer
         //team 0 is friendly, team 1 is enemy
         public int team;
         /// <summary>
-        /// 
+        /// The relationship between the ship and the mainPlayer. Currently, this will never be set to division
         /// </summary>
         public Relation relation;
         public enum Relation
@@ -43,6 +44,18 @@ namespace ReplayVisualizer
             enemy,
             division
         }
+
+        public enum ShipType
+        {
+            submarine,
+            destroyer,
+            cruiser,
+            battleship,
+            carrier
+        }
+
+        public ShipType shipType;
+
         /// <summary>
         /// ID of a player as defined by the "shipid" field in "OnArenaStateReceived" 
         /// </summary>
@@ -50,7 +63,7 @@ namespace ReplayVisualizer
         /// <summary>
         /// ID of in-game ship, for example there's a vehicleID for konigsberg shared by all players using that boat
         /// </summary>
-        public int vehicleID;
+        public long vehicleID;
 
         public int maxHealth;
         public string username;
@@ -100,6 +113,8 @@ namespace ReplayVisualizer
         /// </summary>
         public void PreRenderSetup()
         {
+            //Set initial level of visiblity
+            visibilities.Add(new TimeMarker<bool>(team == Program.meta.mainPlayer.team, -1.0));
             Sort();
             //Set firstSpotted value
             foreach (TimeMarker<bool> b in visibilities)
@@ -107,7 +122,6 @@ namespace ReplayVisualizer
                 if (b.value)
                 {
                     firstSpotted = b.time;
-                    Console.WriteLine(b.time);
                     break;
                 }
             }
@@ -279,7 +293,7 @@ namespace ReplayVisualizer
         public bool GetVisible(double time)
         {
             //If it's friendly, it's always visible
-            if (team == 0)
+            if (team == Program.meta.mainPlayer.team)
                 return true;
             if (visibilities.Count == 0)
                 return false;
@@ -343,6 +357,6 @@ namespace ReplayVisualizer
             return kills[indexBelow].value;
         }
     
-        public override string ToString() => $"ID: {ID}\nTeam: {team}\nVehicle ID: {vehicleID}\nDamages count: {damages.Count}\nPositions count: {positions.Count}\nVisibilites count: {visibilities.Count}";
+        public override string ToString() => $"Username: {username}\nID: {ID}\nTeam: {team}\nRelation: {relation}\nVehicle ID: {vehicleID}\nShip Type: {shipType}\nDamages count: {damages.Count}\nPositions count: {positions.Count}\nVisibilites count: {visibilities.Count}";
     }
 }
