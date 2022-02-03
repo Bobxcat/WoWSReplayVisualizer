@@ -113,8 +113,26 @@ namespace ReplayVisualizer
         /// </summary>
         public void PreRenderSetup()
         {
-            //Set initial level of visiblity
-            visibilities.Add(new TimeMarker<bool>(team == Program.meta.mainPlayer.team, -1.0));
+            //Set initial level of visiblity and clear the list if they are on the friendly team. Also, remove any duplicate subsequent visibility markers
+            {
+                bool friendly = team == Program.meta.mainPlayer.team;
+                if (friendly)
+                {
+                    visibilities.Clear();
+                    visibilities.Add(new TimeMarker<bool>(true, -1));
+                } else
+                {
+                    visibilities.Insert(0, new TimeMarker<bool>(false, -1));
+                }
+
+                for (int i = visibilities.Count - 1; i > 0; i--)
+                {
+                    if (visibilities[i].value == visibilities[i - 1].value)
+                    {
+                        visibilities.RemoveAt(i);
+                    }
+                }
+            }
             Sort();
             //Set firstSpotted value
             foreach (TimeMarker<bool> b in visibilities)

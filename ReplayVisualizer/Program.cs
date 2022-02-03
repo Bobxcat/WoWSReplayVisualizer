@@ -266,6 +266,16 @@ namespace ReplayVisualizer
             replayLength = -1.0;
             clockTimeToGameTimeOffset = 1.0; //Should be negative, so default to positive
         }
+
+        public MetaData(MetaData m)
+        {
+            replayLength = m.replayLength;
+            clockTimeToGameTimeOffset = m.clockTimeToGameTimeOffset;
+            mainPlayerID = m.mainPlayerID;
+            mainPlayer = m.mainPlayer;
+            mapName = m.mapName;
+        }
+
         /// <summary>
         /// Call after processing every other line in the replay
         /// </summary>
@@ -392,7 +402,9 @@ namespace ReplayVisualizer
             //shipList.Values.Log();
 
             Render.Init();
-            Render.RenderVideo("out.mkv", Accord.Video.FFMPEG.VideoCodec.FFV1, 900, 60.0, 10.0);
+            Render.RenderVideo("out.mp4", Accord.Video.FFMPEG.VideoCodec.H264, 900, 60.0, 10.0, Environment.ProcessorCount);
+            //Render.RenderVideo("out.mkv", Accord.Video.FFMPEG.VideoCodec.FFV1, 900, 60.0, 10.0, Environment.ProcessorCount);
+            //Render.RenderVideo("out.mp4", Accord.Video.FFMPEG., 900, 60.0, 10.0, Environment.ProcessorCount);
         }
     }
 
