@@ -22,7 +22,8 @@ namespace ReplayVisualizer.Video
         static Mutex writerMut = new Mutex();
         static VideoFileWriter writer;
         static Bitmap[] bitmapBuffer;
-        static long bitmapBufferIndex;
+        static long renderBitmapIndex; //Index of next frame to be rendered
+        static long writerBitmapIndex; //Index of next frame to be written to the output video file
 
         static MetaData meta;
         static Ship[] ships;
@@ -80,7 +81,7 @@ namespace ReplayVisualizer.Video
         /// </summary>
         /// <param name="b"></param>
         /// <param name="index"></param>
-        /// <returns>The difference between the parameter index and bitmapBufferIndex. Expressed as index - bitmapBufferIndex, calculated after writing any frames to the stream writer</returns>
+        /// <returns>The index of the next frame which needs to be rendered. Returns -1 if rendering should halt immediately</returns>
         private static long PushBitmapToVideoAsync(Bitmap b, long index)
         {
             writerMut.WaitOne();
@@ -88,54 +89,42 @@ namespace ReplayVisualizer.Video
             {
                 writerMut.ReleaseMutex();
                 Console.WriteLine($"Attempted writing out of bounds of bitmap buffer size: attempted index {index} with buffer size {bitmapBuffer.Length}");
-                return index - bitmapBufferIndex;
+                return -1;
             }
 
             bitmapBuffer[index] = b;
 
-            System.IO.TextWriter consoleWriter = Console.Out;
-            Console.SetOut(System.IO.TextWriter.Null);
+            renderBitmapIndex++;
 
-            //Write all valid frames from the front of the buffer
-            while (bitmapBufferIndex < bitmapBuffer.Length && bitmapBuffer[bitmapBufferIndex] != null)
-            {
-                writer.WriteVideoFrame(bitmapBuffer[bitmapBufferIndex]);
-                bitmapBuffer[bitmapBufferIndex].Dispose();
-                bitmapBuffer[bitmapBufferIndex] = null;
-                bitmapBufferIndex++;
-            }
-            Console.SetOut(consoleWriter);
+            long newIndex = renderBitmapIndex;
+            long bufferLength = bitmapBuffer.Length;
 
-            long percentProgress = bitmapBufferIndex * 100 / bitmapBuffer.Length;
+            //Output percent progress
+            long percentProgress = newIndex * 100 / bufferLength;
             if (percentProgress >= previousPrintedPercent + 5)
             {
                 Console.WriteLine($"{percentProgress}%");
                 previousPrintedPercent = percentProgress;
             }
 
-            //The distance between the current
-            long indexGap = index - bitmapBufferIndex;
-
             writerMut.ReleaseMutex();
 
-            return index - bitmapBufferIndex;
+            if (newIndex >= bufferLength)
+                return -1;
+
+            return newIndex;
         }
 
         private static void RenderVideoPortion(MetaData meta, Ship[] ships, ShipIcons shipIcons, List<IRenderPortion> renderPortions, int width, double framerate, double timeScale, int frameOffset, int numThreads)
         {
             double frameScale = width / 100.0;
 
-            //double segmentLength = end - start;
-            //int totalFrames = (int)(segmentLength / timeScale * framerate);
-            int totalFrames = (int)(meta.replayLength / timeScale * framerate);
+            //Index of frame to render
+            long currentFrame = frameOffset;
 
-            //int totalFramesOffset = (int)(start / timeScale * framerate);
-
-            for (int i = frameOffset; i < totalFrames; i += numThreads)
+            while (true)
             {
-                //Console.WriteLine(i + totalFramesOffset);
-                double t = i / framerate * timeScale;
-                long currentFrame = i;
+                double t = currentFrame / framerate * timeScale;
 
                 Bitmap frame = new Bitmap(width, width);
                 Graphics g = Graphics.FromImage(frame);
@@ -147,15 +136,55 @@ namespace ReplayVisualizer.Video
                     rp.Draw(g, r, meta, ships, shipIcons, t);
                 }
 
-                //Write video frame
-                //numAhead is the number of frames ahead of the video stream writing that this portion is at. Takes into numThreads so thread counts > 50 don't break this (not that they should be used)
-                //This makes any threads which are far ahead of the slowest thread have to slow down so there isn't an increase in memory usage because of that distance
-                long numAhead = PushBitmapToVideoAsync(frame, currentFrame) - numThreads;
-                if (numAhead > 50)
-                    Thread.Sleep((int)(numAhead / 10));
+                long nextFrameIndex = PushBitmapToVideoAsync(frame, currentFrame);
+                if (nextFrameIndex == -1)
+                    break;
+                else
+                    currentFrame = nextFrameIndex;
             }
 
             Console.WriteLine($"Thread index {frameOffset} finished");
+        }
+
+        private static void VideoOutThread()
+        {
+            List<Bitmap> buffer = new List<Bitmap>(50);
+            //Repeatedly checks the video buffer and sees if there are new frames to render. If there are, it copies all the next frames to a list for rendering
+            while (writerBitmapIndex < bitmapBuffer.Length)
+            {
+                //Fields borrowed from mut are: writerBitmapIndex, bitmapBuffer
+                writerMut.WaitOne();
+
+                //While the next bitmap to be rendered is available, copy it to the buffer
+                while (writerBitmapIndex < bitmapBuffer.Length && bitmapBuffer[writerBitmapIndex] != null)
+                {
+                    buffer.Add(bitmapBuffer[writerBitmapIndex]);
+                    bitmapBuffer[writerBitmapIndex] = null;
+                    writerBitmapIndex++;
+                }
+
+                writerMut.ReleaseMutex();
+
+                //If the buffer was empty, just sleep and check later. Otherwise, write all the frames!
+                if (buffer.Count == 0)
+                    Thread.Sleep(50);
+                else
+                {
+                    System.IO.TextWriter consoleWriter = Console.Out;
+                    Console.SetOut(System.IO.TextWriter.Null);
+
+                    for (int i = 0; i < buffer.Count; i++)
+                    {
+                        writer.WriteVideoFrame(buffer[i]);
+                        buffer[i].Dispose();
+                    }
+                    buffer.Clear();
+
+                    Console.SetOut(consoleWriter);
+                }
+            }
+
+            Console.WriteLine("Video output thread finished execution");
         }
 
         /// <summary>
@@ -181,8 +210,8 @@ namespace ReplayVisualizer.Video
                 };
             }
 
-            //8MB to bytes
-            int videoSize = (int)((7.5 * 1000.0 * 1000.0) * 8.0);
+            //8MB to bits
+            int videoSize = (int)((70.5 * 1000.0 * 1000.0) * 8.0);
             int bitrate = (int)(videoSize / (meta.replayLength / timeScale));
 
             //Open video stream
@@ -196,6 +225,11 @@ namespace ReplayVisualizer.Video
             int totalFrames = (int)(meta.replayLength / timeScale * framerate);
 
             bitmapBuffer = new Bitmap[totalFrames];
+
+            Thread videoOutThread = new Thread(() => VideoOutThread());
+            videoOutThread.Start();
+
+            renderBitmapIndex = numThreads - 1;
 
             Thread[] threads = new Thread[numThreads];
             Bitmap[][] threadReturns = new Bitmap[numThreads][];
@@ -239,12 +273,12 @@ namespace ReplayVisualizer.Video
 
             Console.WriteLine("All threads initiated");
 
-            
             //Wait for all the threads
             for (int i = 0; i < numThreads; i++)
             {
                 threads[i].Join();
             }
+            videoOutThread.Join();
 
             writer.Close();
 

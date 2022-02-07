@@ -402,9 +402,8 @@ namespace ReplayVisualizer
             //shipList.Values.Log();
 
             Render.Init();
-            Render.RenderVideo("out.mp4", Accord.Video.FFMPEG.VideoCodec.H264, 900, 60.0, 10.0, Environment.ProcessorCount);
-            //Render.RenderVideo("out.mkv", Accord.Video.FFMPEG.VideoCodec.FFV1, 900, 60.0, 10.0, Environment.ProcessorCount);
-            //Render.RenderVideo("out.mp4", Accord.Video.FFMPEG., 900, 60.0, 10.0, Environment.ProcessorCount);
+            //Render.RenderVideo("out.mp4", Accord.Video.FFMPEG.VideoCodec.H264, 900, 60.0, 10.0, Environment.ProcessorCount - 1);
+            Render.RenderVideo("out-fast.mp4", Accord.Video.FFMPEG.VideoCodec.H264, 900, 300.0, 50.0, Environment.ProcessorCount - 1);
         }
     }
 
